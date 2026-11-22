@@ -6,7 +6,7 @@ Artifacts for the paper:
 
 All utterances are synthetic. There is no customer data, and no real institution is named in any utterance (two intent definitions mention UPI apps by name as channel examples).
 
-## Quick check (standard library only, no API key, no network)
+## Reproducing the paper's numbers (standard library only, no API key, no network)
 
     python scripts/verify.py
 
@@ -16,7 +16,7 @@ It checks the dataset hash against `FREEZE.txt`, the quartet structure and the 6
 
 | Path | What it is |
 |---|---|
-| `data/benchmark_480.csv` | The frozen benchmark: 240 Hindi and 240 Tamil items in 120 quartets. Tamil-script items are the same writer's renditions of the romanized items (meaning-matched pairs). |
+| `data/benchmark_480.csv` | The frozen benchmark: 240 Hindi and 240 Tamil items in 120 quartets. Tamil-script items are the same writer's renditions of the romanized items (intent-matched pairs). Two partial-prepayment pairs differ in the stated amount: `B11-ta-rom-q1-B1` and `-B2` say 60,000 rupees, their Tamil-script counterparts 50,000. |
 | `data/taxonomy.yaml` | The 163 intent labels with domain, one-line definition and the three English examples used by the embedding baseline. |
 | `data/pilot_dev_80.json` | An AI-drafted development pilot (development only; it shares 2 items with the benchmark, as the paper states). |
 | `results/results_final_v2.jsonl` | 6,240 per-item predictions: 5 systems, LLM arms run three times; final parsed predictions. |
@@ -26,7 +26,7 @@ It checks the dataset hash against `FREEZE.txt`, the quartet structure and the 6
 | `scripts/verify.py` | One-command integrity and recomputation check. |
 | `scripts/analysis.py` | The full analysis, including the cluster bootstrap (15 boundary clusters; sensitivity with 30 and 120 clusters). |
 | `scripts/generate_tables.py` | Regenerates the submitted table values from `results/analysis_v4.json`. The seven camera-ready rounding corrections are listed below. |
-| `scripts/eval_rerun.py` | Optional: re-runs the models (needs `GROQ_API_KEY`; the two LLMs are accessed through a hosted API and may change or be withdrawn). |
+| `scripts/eval_rerun.py` | Optional: re-runs the models (needs `GROQ_API_KEY`). It writes new predictions to `scripts/results_<tag>.jsonl`; `scripts/analysis.py` reads the archived `results/results_final_v2.jsonl`, so a rerun is analysed only if that input path is changed. The provider retired the `qwen/qwen3.6-27b` endpoint for free and developer-tier accounts on 14 September 2026, after the paper's runs of 3 September 2026; a rerun with a successor model would be a new experimental arm. |
 | `FREEZE.txt` | Dataset hash chronology, recorded before the final model runs. It names the benchmark by its working file name, `final_items_hi_ta_v2.csv`; that file is `data/benchmark_480.csv` here (same hash). |
 | `MANIFEST.sha256` | SHA-256 of every file in this release. |
 
