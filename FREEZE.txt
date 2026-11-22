@@ -1,0 +1,6 @@
+final_items_hi_v1.csv  sha256=52745fedb3f5515fd4cf07e13abc77e84696ca4f9b972c33acab44cfb3229dbe
+frozen 2026-08-31 after dual validation + 16-quartet revision recheck
+final_items_hi_ta_v2.csv  sha256=3187878f1d005f5776a90467e7b38b0e600c03d5766e6cd0be9b769f5de60036
+frozen 2026-09-03 (study v2: +240 Tamil, single independent validator + writer revisions + reconfirmation)
+chronology: benchmark file last written 2026-09-03T15:41:10 IST (UTC+05:30); first final-run prediction timestamp 2026-09-03T10:11:50 (UTC per result log). Freeze preceded all final runs.
+note: archive packaging rewrites zip-stored file mtimes; the hash chain (FREEZE hash = released benchmark hash = gold labels scored against) is the verifiable freeze evidence.

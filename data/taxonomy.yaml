@@ -1,0 +1,1000 @@
+note: 'Label set for the 163-way classification task of the paper: intent name, domain, one-line definition, and the first three English examples (the index of the embedding baseline). Reduced from the working taxonomy; nothing else is released.'
+domains:
+  accounts:
+    intents:
+      acc_check_balance:
+        description: 'Check current account balance — how much money is in the account RIGHT NOW. Single number answer. Keywords: balance, kitna hai, kitna paisa, kitna pada, kitna bacha'
+        examples:
+        - Please provide my current account balance.
+        - I would like to check my account balance.
+        - Could you tell me the balance in my account?
+      acc_mini_statement:
+        description: 'View recent transaction LIST — last 5-10 transactions showing what was debited/credited. NOT a single balance number. Keywords: mini statement, transactions, kya kya kata, kya kya hua, hisab, lena dena, recent txn'
+        examples:
+        - Show me a mini statement for my account.
+        - Please provide the last ten transactions.
+        - Can I see my recent transaction list?
+      acc_detailed_statement:
+        description: Full account statement for a period
+        examples:
+        - Could you provide my account statement for the last six months?
+        - Please send me the detailed statement for my savings account.
+        - I would like a full statement covering the past quarter.
+      acc_download_statement:
+        description: Download statement as PDF
+        examples:
+        - I would like to download my account statement as PDF.
+        - Could you provide a PDF version of my statement?
+        - Please send me the PDF of my recent statement.
+      acc_email_statement:
+        description: Email account statement
+        examples:
+        - Please send me my account statement via email.
+        - Could you email me my latest statement?
+        - I would like to receive my statement by email.
+      acc_transaction_search:
+        description: Search for a specific transaction
+        examples:
+        - Show me the transaction I made last week.
+        - Find the payment I sent to a friend.
+        - Please display the transfer I executed yesterday.
+      acc_open_account:
+        description: Open a new bank account
+        examples:
+        - I would like to open a new savings account.
+        - Please guide me on how to open a current account.
+        - I want to apply for a new bank account.
+      acc_deposit_money:
+        description: Deposit cash/money into bank account
+        examples:
+        - I would like to deposit cash into my savings account.
+        - Please process a deposit of funds to my checking account.
+        - Could you assist me with depositing money into my account?
+      acc_close_account:
+        description: 'Permanently CLOSE a bank account — user wants to end their relationship with the bank and shut down the account forever. NOT temporary freeze. Keywords: close, band karo permanently, khatam karo, chhod raha hu bank, account closure'
+        examples:
+        - I would like to close my savings account permanently.
+        - Please initiate the closure of my current account.
+        - I request the permanent closure of my checking account.
+      acc_upgrade:
+        description: Upgrade account type (e.g., regular to premium)
+        examples:
+        - I would like to upgrade my account to premium.
+        - Please upgrade my savings account to a premium tier.
+        - Could you process an account upgrade to premium status?
+      acc_reactivate_dormant:
+        description: Reactivate a dormant/inactive account
+        examples:
+        - Please reactivate my dormant account.
+        - I would like to reactivate my inactive account.
+        - Kindly activate my dormant bank account.
+      acc_account_number:
+        description: Enquire own account number
+        examples:
+        - Could you please provide my account number?
+        - I would like to know my account number.
+        - Please share my account number with me.
+      acc_ifsc_code:
+        description: Get IFSC code for branch
+        examples:
+        - What is the IFSC code for this branch?
+        - Could you provide the IFSC code of the branch?
+        - Please give me the IFSC code of the branch.
+      acc_branch_details:
+        description: Branch info for account
+        examples:
+        - Could you provide the branch details for my account?
+        - I would like to know the branch where my account is held.
+        - Please share the branch information associated with my account.
+      acc_cif_number:
+        description: Get CIF/customer number
+        examples:
+        - Could you provide my CIF number?
+        - I need to know my customer identification number.
+        - Please share my CIF details with me.
+      acc_nominee_update:
+        description: Add or update account nominee
+        examples:
+        - I would like to update the nominee for my account.
+        - Please add a new nominee to my savings account.
+        - Could you change the nominee details on my current account?
+      acc_set_balance_alert:
+        description: Set low balance alert threshold
+        examples:
+        - Please set a low balance alert for my account.
+        - I would like to activate a low balance notification.
+        - Could you enable a balance threshold alert?
+      acc_set_transaction_alert:
+        description: Set transaction amount alert
+        examples:
+        - Please set an alert for large transactions.
+        - Enable transaction alerts for high-value purchases.
+        - Set up a notification for transactions exceeding a threshold.
+      acc_sms_alerts_toggle:
+        description: Enable or disable SMS alerts
+        examples:
+        - Please enable SMS alerts for my account.
+        - Could you activate SMS notifications on my account?
+        - I would like to turn on SMS alerts.
+      acc_email_alerts_toggle:
+        description: Enable or disable email alerts
+        examples:
+        - Please enable email notifications for my account.
+        - I would like to turn on email alerts.
+        - Could you activate email notifications for me?
+      acc_service_charges:
+        description: Enquire about account charges
+        examples:
+        - Could you explain the charges associated with my account?
+        - What are the fees for maintaining my bank account?
+        - Please provide details of the service charges for my account.
+      acc_minimum_balance:
+        description: Minimum balance requirement
+        examples:
+        - What is the minimum balance required for my savings account?
+        - Could you tell me the minimum balance that must be maintained?
+        - I would like to know the minimum balance for my current account.
+      acc_interest_rate:
+        description: Savings account interest rate
+        examples:
+        - What is the interest rate for my savings account?
+        - Could you provide the current savings account interest rate?
+        - Please tell me the interest rate applicable to my savings.
+      acc_charge_reversal:
+        description: Request reversal of incorrect charge
+        examples:
+        - Please reverse the incorrect charge on my account.
+        - I would like a refund for the wrong debit applied.
+        - Kindly cancel the erroneous transaction from my balance.
+      acc_standing_instruction:
+        description: Create, modify, or cancel standing instruction
+        examples:
+        - I would like to initiate a standing instruction for monthly savings.
+        - Please set up a recurring transfer from my savings account to my fixed deposit.
+        - Could you create a standing instruction for my credit card payment each month?
+      acc_sweep_fd:
+        description: Setup, modify, or cancel auto-sweep to FD
+        examples:
+        - I would like to set up an auto-sweep to fixed deposit.
+        - Please enable automatic sweep from my savings account to a fixed deposit.
+        - How do I configure auto-sweep to fixed deposit?
+      acc_nearest_atm:
+        description: Find nearest the bank ATM
+        examples:
+        - Where can I find the nearest the bank ATM?
+        - Could you locate the closest ATM for the bank?
+        - Please tell me the nearest ATM of the bank.
+      acc_nearest_branch:
+        description: Find nearest the bank branch
+        examples:
+        - Could you tell me the nearest the bank branch location?
+        - I need the address of the closest the bank branch.
+        - Please provide the nearest the bank branch to my current location.
+      acc_explore:
+        description: General account enquiry — explore account features, get overview of savings/current accounts and available actions. NOT a specific action like balance check or fund transfer.
+        examples:
+        - Could you provide an overview of my account features?
+        - I would like to know the different types of accounts available.
+        - What are the benefits of the savings account you offer?
+  credit_card:
+    intents:
+      cc_block_card:
+        description: Block/hotlist credit card
+        examples:
+        - Please block my credit card immediately.
+        - I need to block my credit card for security.
+        - Could you block my credit card, please?
+      cc_unblock_card:
+        description: 'Resume using a PREVIOUSLY BLOCKED credit card — card was working before, got blocked by user or bank, now user wants it working AGAIN. Keywords: unblock, dobara chalu, phir se, wapas, enable karo, reactivate, resume'
+        examples:
+        - Please unblock my credit card.
+        - I would like to reactivate my credit card.
+        - Could you enable my previously blocked credit card?
+      cc_temp_lock:
+        description: Temporarily lock card
+        examples:
+        - Please lock my credit card temporarily.
+        - I need to temporarily block my credit card.
+        - Could you put my card on a temporary lock?
+      cc_replace_card:
+        description: 'Replace an EXISTING credit card that is damaged, expired, lost, or worn out — user ALREADY HAS a credit card and needs a new physical card. Keywords: replace, naya chahiye (with existing card context), damaged, toot gya, ghis gya, expire, kharab'
+        examples:
+        - I would like to request a replacement for my damaged credit card.
+        - Please issue me a new credit card as my current one is worn out.
+        - Could you replace my expired credit card with a fresh one?
+      cc_activate_card:
+        description: 'Activate a NEWLY ISSUED credit card for FIRST-TIME use — card was just delivered/received and has never been used before, needs initial activation. NOT for re-enabling a blocked card. Keywords: activate new card, naya card aaya, first time, just received'
+        examples:
+        - Please activate my newly issued credit card.
+        - I would like to activate my new credit card.
+        - Kindly enable the activation of my recent credit card.
+      cc_set_international:
+        description: Enable/disable international transactions
+        examples:
+        - Please enable international transactions on my credit card.
+        - Could you activate overseas spending for my card?
+        - I would like to allow international purchases on my credit card.
+      cc_set_online:
+        description: Enable/disable online transactions
+        examples:
+        - Please enable online transactions on my credit card.
+        - Activate e-commerce payments for my credit card.
+        - I would like to disable online purchases for my credit card.
+      cc_set_contactless:
+        description: Enable/disable contactless/tap payments
+        examples:
+        - Please enable contactless payments on my credit card.
+        - I would like to activate the contactless feature on my card.
+        - Could you turn on contactless for my credit card, please?
+      cc_view_statement:
+        description: 'VIEW/SEE credit card statement or bill details — user wants to LOOK AT charges, transactions, bill amount. Read-only. NOT paying the bill. Keywords: statement dikhao, bill kitna, bill btao, charges, kya kya laga, hisab'
+        examples:
+        - Please show me my credit card statement.
+        - I would like to view my credit card bill.
+        - Could I see my recent credit card charges?
+      cc_view_unbilled:
+        description: View unbilled transactions
+        examples:
+        - Could you show me the unbilled charges on my credit card?
+        - I would like to review my unbilled credit card transactions.
+        - Please display the pending credit card usage that hasn't been billed.
+      cc_payment_due:
+        description: Check payment due date
+        examples:
+        - When is my credit card payment due?
+        - What is the due date for my credit card bill?
+        - Could you tell me the payment deadline for my card?
+      cc_minimum_due:
+        description: Check minimum due amount
+        examples:
+        - What is the minimum payment due on my credit card?
+        - Could you tell me the minimum amount I owe for my credit card?
+        - Please inform me of the minimum credit card payment required.
+      cc_total_outstanding:
+        description: Check total outstanding amount
+        examples:
+        - Could you please provide my total credit card debt?
+        - I would like to know the total outstanding balance on my credit card.
+        - Please inform me of the complete amount due on my credit card.
+      cc_pay_bill:
+        description: 'PAY/CLEAR credit card bill — user wants to MAKE A PAYMENT to reduce or clear their CC outstanding. Money moves OUT. Keywords: bill bharo, pay karo, bill pay, chuka do, karza utaaro, zero karo, baki de do'
+        examples:
+        - Please process payment for my credit card bill.
+        - I would like to pay my credit card balance.
+        - Could you settle my credit card debt today?
+      cc_auto_pay:
+        description: Setup or cancel auto-pay for credit card
+        examples:
+        - Please enable auto payment for my credit card.
+        - I would like to set up auto debit on my credit card.
+        - Activate automatic payment for my credit card account.
+      cc_billing_dispute:
+        description: Dispute incorrect charge on credit card
+        examples:
+        - I would like to dispute an incorrect charge on my credit card.
+        - Please assist me in contesting a fraudulent transaction on my card.
+        - I need to raise a dispute for a wrong billing entry.
+      cc_payment_not_reflecting:
+        description: Credit card payment made but not reflecting in outstanding — payment processing query
+        examples:
+        - I made a payment on my credit card but it hasn't been applied yet.
+        - My recent credit card payment hasn't reflected on my statement.
+        - The payment I submitted for my credit card is still pending.
+      cc_excess_refund:
+        description: Request refund of excess credit/overpayment on credit card
+        examples:
+        - Please refund the excess amount charged to my credit card.
+        - Request a refund for the overpayment on my credit card.
+        - Refund the surplus amount applied to my credit card.
+      cc_limit_increase:
+        description: Request credit limit increase
+        examples:
+        - I would like to request an increase in my credit card limit.
+        - Please consider raising my credit card limit.
+        - Could you review my account for a higher credit limit?
+      cc_limit_decrease:
+        description: Request credit limit decrease
+        examples:
+        - I would like to reduce my credit card limit.
+        - Please lower my credit card limit.
+        - Could you decrease my credit limit?
+      cc_check_limit:
+        description: Check available credit limit
+        examples:
+        - Could you please tell me my current credit limit?
+        - I would like to know my available credit limit.
+        - What is the remaining credit on my card?
+      cc_convert_emi:
+        description: Convert transaction to EMI
+        examples:
+        - Please convert this purchase into an installment plan.
+        - I would like to convert my credit card payment to a monthly installment.
+        - Could you enable the EMI option for this transaction?
+      cc_emi_preclosure:
+        description: Foreclose/preclose EMI on credit card
+        examples:
+        - I would like to pre-close my credit card EMI.
+        - Please initiate early settlement of my credit card installments.
+        - Requesting to close my credit card EMI ahead of schedule.
+      cc_check_rewards:
+        description: Check reward points balance
+        examples:
+        - Could you please provide my credit card reward points balance?
+        - I would like to know my current reward points for my credit card.
+        - Please check how many reward points I have accrued on my credit card.
+      cc_redeem_rewards:
+        description: Redeem reward points
+        examples:
+        - I would like to redeem my credit card reward points.
+        - Please process the redemption of my credit card points.
+        - Could you help me convert my reward points into a voucher?
+      cc_application_status:
+        description: Check credit card application status
+        examples:
+        - Could you tell me the status of my credit card application?
+        - I would like to know the current status of my credit card request.
+        - Please update me on the progress of my credit card application.
+      cc_apply_new:
+        description: Apply for new credit card
+        examples:
+        - I would like to apply for a new credit card.
+        - Please help me apply for a new credit card.
+        - I want to request a new credit card.
+      cc_download_statement:
+        description: Download credit card statement PDF
+        examples:
+        - Please provide me with my credit card statement in PDF format.
+        - Could I download my credit card statement as a PDF?
+        - I would like to retrieve my credit card statement in PDF.
+      cc_track_card:
+        description: Track credit card delivery/courier
+        examples:
+        - Please provide the status of my credit card shipment.
+        - Could you update me on the delivery of my new credit card?
+        - I would like to know where my credit card is currently located.
+      cc_delivery_status:
+        description: Check credit card delivery status
+        examples:
+        - Could you please update me on the delivery status of my credit card?
+        - I would like to know the current status of my credit card shipment.
+        - Please inform me about the delivery progress of my new credit card.
+      cc_explore:
+        description: General credit card enquiry — explore credit card features, get overview of credit cards and available actions. NOT a specific action like block, limit, or billing.
+        examples:
+        - Could you provide information about your credit card offerings?
+        - I would like to learn more about your credit card products.
+        - Please give me an overview of the available credit cards.
+  debit_card:
+    intents:
+      dc_block_card:
+        description: Block/hotlist debit card
+        examples:
+        - Please block my debit card immediately.
+        - I need my debit card blocked for security.
+        - Could you deactivate my debit card right away?
+      dc_unblock_card:
+        description: Unblock debit card
+        examples:
+        - Please unblock my debit card.
+        - Could you unblock my debit card?
+        - I need my debit card unblocked.
+      dc_replace_card:
+        description: 'Replace an EXISTING debit/ATM card that is damaged, expired, lost, worn out, or not working — user ALREADY HAS a debit card and needs a replacement. Keywords: naya chahiye (purana kharab), replace, damaged, toot gya, ghis gya, expire, kaam nahi kar raha, kharab ho gya'
+        examples:
+        - I would like to request a replacement debit card.
+        - Please issue me a new debit card as my current one is damaged.
+        - Could you replace my existing debit card with a new one?
+      dc_activate_card:
+        description: Activate new debit card
+        examples:
+        - Please activate my new debit card.
+        - I would like to activate my new debit card.
+        - Could you activate my newly issued debit card?
+      dc_set_international:
+        description: Enable/disable international transactions
+        examples:
+        - Activate international transactions on my debit card.
+        - Please enable overseas usage for my debit card.
+        - I would like to allow foreign transactions on my card.
+      dc_set_online:
+        description: Enable/disable online transactions
+        examples:
+        - Please enable online transactions on my debit card.
+        - I would like to activate online payments for my debit card.
+        - Enable online purchases on my debit card, please.
+      dc_reset_pin:
+        description: 'Reset or change the 4-digit ATM/debit card PIN — user forgot PIN, wants new PIN, or wants to change existing PIN. Keywords: PIN reset, PIN bhool gya, PIN change, 4 digit code, ATM PIN, naya PIN'
+        examples:
+        - I would like to reset my debit card PIN
+        - Please reset my ATM PIN
+        - Could you help me reset my debit card PIN
+      dc_generate_pin:
+        description: Generate PIN for new debit card
+        examples:
+        - Could you generate a PIN for my new debit card?
+        - Please create a PIN for my freshly issued card.
+        - I require a PIN for my new debit card.
+      dc_check_limit:
+        description: Check daily transaction/ATM limits
+        examples:
+        - Could you tell me my daily ATM withdrawal limit?
+        - Please inform me of the maximum daily transaction amount.
+        - I would like to know the daily transaction ceiling.
+      dc_change_limit:
+        description: Change daily transaction limits
+        examples:
+        - Please increase my debit card's daily spending limit.
+        - I would like to raise the daily transaction limit on my debit card.
+        - Could you adjust my card's daily withdrawal limit?
+      dc_card_status:
+        description: Check card delivery/dispatch status
+        examples:
+        - Could you please update me on the status of my debit card shipment?
+        - I would like to know the delivery status of my debit card.
+        - Please inform me when my debit card will be dispatched.
+      dc_card_details:
+        description: View card details (last 4, expiry, type)
+        examples:
+        - Please show me the details of my debit card.
+        - I would like to see the last four digits of my card.
+        - Could you provide the expiry date of my debit card?
+      dc_linked_accounts:
+        description: View accounts linked to debit card
+        examples:
+        - Please display the accounts linked to my debit card.
+        - I would like to view the accounts associated with my debit card.
+        - Could you provide the list of accounts linked to my debit card?
+      dc_set_primary:
+        description: Set primary account for debit card
+        examples:
+        - Please set my debit card's primary account to my savings.
+        - I would like to change the primary account for my debit card.
+        - Could you set the debit card's default account to my checking?
+      dc_apply_new:
+        description: 'Apply for a FIRST debit card on an account that has NO card yet — user has never had a debit card or wants an additional card on a different account. NOT a replacement for existing card. Keywords: apply, pehli baar, new account, ATM card nahi hai'
+        examples:
+        - Please apply for a new debit card on my account.
+        - I would like to request a debit card for the first time.
+        - Can you help me apply for a debit card on my new account?
+      dc_explore:
+        description: General debit card enquiry — explore debit/ATM card features, get overview of debit cards and available actions. NOT a specific action like block or replace.
+        examples:
+        - Could you explain the features of debit cards?
+        - I would like to learn about the benefits of a debit card.
+        - What are the different types of debit cards offered?
+  loans:
+    intents:
+      loan_emi_details:
+        description: 'Check loan EMI amount and payment date — how much is the MONTHLY INSTALLMENT and when is it due. Keywords: EMI kitni, kist kitni, monthly installment, har mahine kitna, EMI date, kab dena hai'
+        examples:
+        - What is the amount of my next loan installment?
+        - Could you provide the due date for my upcoming EMI?
+        - Please share the monthly loan payment amount and its deadline.
+      loan_repayment_schedule:
+        description: View full repayment schedule
+        examples:
+        - Could you show me the full loan repayment schedule?
+        - Please display my entire loan repayment plan.
+        - I would like to view the complete loan repayment timeline.
+      loan_pay_emi:
+        description: Make manual EMI payment
+        examples:
+        - I would like to pay my loan EMI today.
+        - Please process my loan EMI payment for this month.
+        - I want to make a manual EMI payment on my loan.
+      loan_next_emi_date:
+        description: Check next EMI due date
+        examples:
+        - When is the next EMI due for my loan?
+        - Could you tell me the upcoming EMI payment date?
+        - I would like to know the date of my next loan installment.
+      loan_overdue_check:
+        description: Check overdue EMI amount
+        examples:
+        - Could you tell me if I have any overdue loan installments?
+        - I need to check whether there is an overdue EMI on my loan.
+        - Please inform me about any pending EMI payments on my loan account.
+      loan_outstanding:
+        description: 'Check TOTAL remaining loan amount — how much PRINCIPAL is still left to pay on the entire loan. NOT monthly EMI. Keywords: kitna baki, outstanding, remaining amount, total loan, kitna chukana, abhi kitna dena'
+        examples:
+        - What is the remaining balance on my loan?
+        - Please tell me the outstanding principal amount for my loan.
+        - I would like to know the total remaining loan amount.
+      loan_interest_rate:
+        description: Check current loan interest rate
+        examples:
+        - What is the current interest rate for my loan?
+        - Could you tell me the interest rate applicable to my loan?
+        - I would like to know the interest rate on my loan.
+      loan_tenure_remaining:
+        description: Check remaining loan tenure
+        examples:
+        - How many years remain on my loan?
+        - What is the remaining tenure of my loan?
+        - Could you tell me the remaining duration of my loan?
+      loan_statement:
+        description: Get loan account statement
+        examples:
+        - Could you provide my loan statement?
+        - I would like to see my loan account statement.
+        - Please send me the latest loan statement.
+      loan_sanction_letter:
+        description: Get copy of sanction letter
+        examples:
+        - Could you please send me my loan sanction letter?
+        - I would like a copy of my loan approval document.
+        - Please provide the sanction letter for my loan.
+      loan_foreclosure:
+        description: 'Pay off ENTIRE remaining loan at once and CLOSE the loan — user wants to settle full outstanding in one payment. Keywords: foreclose, ek saath de do, poora chuka do, loan band karo, prepay full, karza nipta do, sab de deta hu'
+        examples:
+        - I would like to pay off my loan in full.
+        - Please close my loan by settling the remaining balance.
+        - I want to prepay the entire outstanding loan amount.
+      loan_part_prepayment:
+        description: Make partial prepayment on loan
+        examples:
+        - I would like to make a partial payment towards my loan.
+        - Please process a partial prepayment on my loan account.
+        - I wish to pay an additional amount towards my loan balance.
+      loan_foreclosure_amount:
+        description: Check foreclosure amount
+        examples:
+        - Could you tell me the foreclosure amount for my loan?
+        - I would like to know the total foreclosure cost.
+        - Please provide the foreclosure charges for my loan.
+      loan_foreclosure_charges:
+        description: Check foreclosure penalties/charges
+        examples:
+        - What are the foreclosure charges for my loan?
+        - Please provide details of early repayment penalties.
+        - Could you inform me about the prepayment fee structure?
+      loan_top_up:
+        description: Apply for loan top-up
+        examples:
+        - I would like to apply for a loan top-up.
+        - Could you assist me with a loan top-up request?
+        - I need to increase my loan amount through a top-up.
+      loan_emi_restructure:
+        description: Request EMI restructuring
+        examples:
+        - I would like to request a restructuring of my loan EMI.
+        - Please initiate a loan EMI restructuring process for me.
+        - Could you help me modify my loan repayment schedule?
+      loan_moratorium:
+        description: Request EMI holiday/moratorium
+        examples:
+        - I would like to apply for an EMI holiday.
+        - Can I request a moratorium on my loan payments?
+        - Please consider granting me an EMI pause for a few months.
+      loan_application_status:
+        description: Check status of pending loan application — approval, disbursement, rejection tracking
+        examples:
+        - Could you tell me the status of my loan application?
+        - I would like to know the progress of my loan request.
+        - Please provide an update on my loan application status.
+      loan_noc_ndc:
+        description: Request No Objection Certificate / No Dues Certificate
+        examples:
+        - Please issue a No Objection Certificate for my loan.
+        - I need a No Dues Certificate regarding my loan account.
+        - Could you provide the No Objection Certificate for my loan?
+      loan_property_documents:
+        description: Request return of property documents (home loan)
+        examples:
+        - Please return the original property documents for my home loan.
+        - I would like to receive the property documents after loan closure.
+        - Could you provide the original title deeds once the loan is settled?
+      loan_insurance:
+        description: Loan protection insurance details
+        examples:
+        - Could you explain what loan insurance entails?
+        - I would like to understand the details of loan protection insurance.
+        - Please provide information on loan insurance policies.
+      loan_interest_certificate:
+        description: Get loan interest certificate for ITR
+        examples:
+        - Could you issue me a loan interest certificate for tax filing?
+        - I would like to request a loan interest certificate for my income tax return.
+        - Please provide the loan interest certificate required for my ITR submission.
+      loan_ecs_details:
+        description: Check/modify ECS or NACH mandate for loan EMI
+        examples:
+        - Please provide the details of my loan ECS mandate.
+        - I would like to review my loan NACH authorization.
+        - Could you confirm the current ECS schedule for my loan?
+      loan_payment_complaint:
+        description: Complain about loan payment issue
+        examples:
+        - I need to report a problem with my recent loan payment.
+        - There is an issue with the deduction of my loan EMI.
+        - I am facing an error in my loan repayment transaction.
+      loan_explore:
+        description: General loan enquiry — explore loan products, get overview of all loans and available actions. NOT a specific action like EMI check or foreclosure.
+        examples:
+        - I would like to know about the loan options available.
+        - Could you provide an overview of all loan products?
+        - Please explain the different types of loans offered.
+  payments:
+    intents:
+      pay_transfer:
+        description: 'Transfer money via NEFT/IMPS/RTGS to a bank account — traditional bank transfer using account number and IFSC. NOT UPI/PhonePe/GPay. Keywords: transfer, NEFT, IMPS, RTGS, bank account, beneficiary, IFSC'
+        examples:
+        - Please transfer funds to my bank account.
+        - I would like to initiate a NEFT transfer.
+        - Kindly send money to the beneficiary's account.
+      pay_transfer_status:
+        description: Check status of a transfer
+        examples:
+        - Could you tell me the status of my recent transfer?
+        - Please provide the current status of the money transfer.
+        - I would like to know the status of my bank transfer.
+      pay_transfer_cancel:
+        description: Cancel pending transfer
+        examples:
+        - Please cancel my pending transfer.
+        - I would like to cancel a scheduled transfer.
+        - Could you stop the transfer that is pending?
+      pay_schedule_transfer:
+        description: Schedule a future transfer
+        examples:
+        - Please schedule a future transfer for me.
+        - I would like to arrange a transfer at a later date.
+        - Could you set up a transfer for the upcoming week?
+      pay_recurring_transfer:
+        description: Set up recurring/standing transfer
+        examples:
+        - I would like to set up a monthly standing instruction.
+        - Please schedule a recurring transfer for my savings account.
+        - Initiate a regular payment to my recurring beneficiary.
+      pay_add_beneficiary:
+        description: Add new transfer beneficiary
+        examples:
+        - I would like to add a new beneficiary to my account.
+        - Please add a new beneficiary for my upcoming transfers.
+        - Could you add a new beneficiary to my profile?
+      pay_delete_beneficiary:
+        description: Remove a saved beneficiary
+        examples:
+        - Please remove a beneficiary from my account.
+        - I would like to delete a beneficiary.
+        - Could you please delete a saved beneficiary?
+      pay_list_beneficiaries:
+        description: View saved beneficiaries
+        examples:
+        - Show me my list of saved beneficiaries.
+        - Please display the beneficiaries I have registered.
+        - Could you provide the details of my saved beneficiaries?
+      pay_verify_account:
+        description: Verify account number before transfer
+        examples:
+        - Please verify my account number before initiating the transfer.
+        - Could you confirm whether this account number is correct?
+        - I need to check the validity of this account for a payment.
+      pay_bill:
+        description: Pay utility bill
+        examples:
+        - I would like to pay my electricity bill today.
+        - Please process payment for my gas bill.
+        - Could you assist me in paying my water bill?
+      pay_recharge:
+        description: Mobile/DTH/FASTag recharge
+        examples:
+        - Please recharge my mobile account.
+        - I would like to recharge my DTH subscription.
+        - Kindly add balance to my FASTag account.
+      pay_bill_status:
+        description: Check bill payment status
+        examples:
+        - Could you please tell me the status of my recent bill payment?
+        - I would like to check the status of my utility bill payment.
+        - Please provide the current status of my last bill transaction.
+      pay_autopay_setup:
+        description: Setup auto-pay for recurring bills
+        examples:
+        - Please set up auto payment for my electricity bill.
+        - I want to enable automatic bill payment for my water charges.
+        - Could you help me configure auto pay for my monthly subscriptions?
+      pay_autopay_cancel:
+        description: Cancel auto-pay for bills
+        examples:
+        - Please cancel my auto payment for the electricity bill.
+        - I would like to stop the automatic payment for my water bill.
+        - Kindly terminate the scheduled auto payment for my cable subscription.
+      pay_transfer_limit:
+        description: Check daily transfer limits
+        examples:
+        - What is my daily transfer limit?
+        - Could you tell me the maximum amount I can transfer each day?
+        - Please inform me about the daily NEFT transfer limit.
+      pay_transfer_charges:
+        description: Check transfer fees
+        examples:
+        - What is the fee for NEFT transfers?
+        - Could you inform me about the charges for an RTGS transaction?
+        - Please tell me the cost of transferring money via IMPS.
+      pay_payment_history:
+        description: View past payment history
+        examples:
+        - Show me my recent payment history
+        - Could you display my past transaction records?
+        - I would like to view my payment history
+      pay_failed_transaction:
+        description: Report/check failed transaction
+        examples:
+        - I am unable to complete my transfer
+        - The recent payment did not go through
+        - My transaction was declined and I need help
+      pay_payment_receipt:
+        description: Get receipt for a payment
+        examples:
+        - Could you provide me with the payment receipt?
+        - I would like a copy of the payment receipt, please.
+        - Please send me the receipt for my recent transaction.
+      pay_refund_request:
+        description: Request refund for failed/wrong transaction
+        examples:
+        - I would like to request a refund for a failed transaction.
+        - Please initiate a refund for the incorrect payment made.
+        - Kindly process a refund for the transaction that failed.
+  upi:
+    intents:
+      upi_send:
+        description: 'Send money via UPI apps — payment through PhonePe, GPay, Paytm, BHIM, or UPI ID. Mobile/QR-based payment. Keywords: UPI, PhonePe, GPay, Google Pay, Paytm, BHIM, scan karke, QR, @upi, phone pe, phone se bhejo'
+        examples:
+        - Please transfer funds using UPI.
+        - Initiate a money transfer through PhonePe.
+        - Send payment via Google Pay.
+      upi_request:
+        description: Request/collect money via UPI
+        examples:
+        - I would like to send a UPI payment request.
+        - Please initiate a UPI request for payment.
+        - Could you send a UPI money request?
+      upi_check_balance:
+        description: Check balance via UPI
+        examples:
+        - Please check my UPI balance.
+        - Could you verify my UPI account balance?
+        - I would like to view my UPI balance.
+      upi_history:
+        description: View UPI transaction history
+        examples:
+        - Show me my recent UPI transaction history.
+        - I would like to view my UPI payment records.
+        - Please display my UPI transaction list.
+      upi_dispute:
+        description: Dispute UPI transaction
+        examples:
+        - I would like to dispute a recent UPI transaction.
+        - Please assist me in disputing a UPI payment.
+        - I need to file a dispute for a UPI transaction.
+      upi_set_pin:
+        description: Set or change UPI PIN
+        examples:
+        - I would like to set a new UPI PIN.
+        - Please help me change my UPI PIN.
+        - How can I reset my UPI PIN?
+      upi_reset_pin:
+        description: Reset forgotten UPI PIN
+        examples:
+        - I have forgotten my UPI PIN and need to reset it.
+        - Please help me reset my UPI PIN.
+        - I want to change my UPI PIN because I cannot recall it.
+      upi_mandate_create:
+        description: Create UPI autopay mandate
+        examples:
+        - Please set up a UPI auto payment mandate.
+        - I would like to create a recurring UPI payment.
+        - Initiate a UPI mandate for monthly autopay.
+      upi_mandate_revoke:
+        description: Cancel/revoke UPI mandate
+        examples:
+        - I would like to cancel my UPI mandate.
+        - Please revoke the UPI mandate set for my account.
+        - Kindly remove the automatic payment mandate from my UPI.
+      upi_link_account:
+        description: Link or delink bank account to UPI
+        examples:
+        - Please link my bank account with UPI.
+        - I would like to add my savings account to UPI.
+        - Could you add my checking account to UPI?
+  deposits:
+    intents:
+      dep_create:
+        description: Create new FD or RD
+        examples:
+        - I would like to open a new fixed deposit account.
+        - Could you assist me in creating a recurring deposit?
+        - Please guide me through setting up a fixed deposit.
+      dep_premature_withdrawal:
+        description: Break FD/RD before maturity
+        examples:
+        - I would like to prematurely close my fixed deposit.
+        - Please terminate my recurring deposit before its maturity date.
+        - I need to break my fixed deposit early.
+      dep_interest_rate:
+        description: Check FD/RD interest rates
+        examples:
+        - Could you tell me the current fixed deposit interest rate?
+        - Please provide the interest rate for a one-year fixed deposit.
+        - I would like to know the interest rate for recurring deposits.
+      dep_maturity_date:
+        description: Check when FD/RD matures
+        examples:
+        - When does my fixed deposit mature?
+        - Could you tell me the maturity date of my recurring deposit?
+        - I would like to know the maturity date of my FD.
+      dep_interest_earned:
+        description: Check interest earned on deposits
+        examples:
+        - What interest have I earned on my fixed deposits?
+        - Please tell me the interest accrued on my savings account.
+        - I would like to know the total interest earned so far.
+      dep_renew:
+        description: Renew maturing FD
+        examples:
+        - Please renew my fixed deposit that is about to mature.
+        - I would like to extend the maturity of my fixed deposit.
+        - Kindly renew my FD before it matures.
+      dep_certificate:
+        description: Get FD/RD certificate or receipt
+        examples:
+        - I would like a certificate for my fixed deposit.
+        - Please provide the receipt for my recurring deposit.
+        - Could you issue the FD certificate to me?
+      dep_modify_rd:
+        description: Change RD installment amount
+        examples:
+        - I would like to adjust my recurring deposit installment.
+        - Please modify the amount I pay for my RD.
+        - Can you change the installment amount for my recurring deposit?
+      dep_list:
+        description: View all FDs/RDs
+        examples:
+        - Please show me all my fixed deposit accounts.
+        - Could you list all my recurring deposits?
+        - I would like to view the full list of my fixed deposits.
+      dep_auto_renew:
+        description: Enable/disable auto-renewal for FD
+        examples:
+        - Please activate auto renewal for my fixed deposit.
+        - I would like to enable automatic renewal on my term deposit.
+        - Could you set my FD to renew automatically upon maturity?
+  security:
+    intents:
+      sec_report_fraud:
+        description: Report fraudulent transaction
+        examples:
+        - I would like to report a fraudulent transaction on my account.
+        - Please help me to file a fraud complaint regarding my card.
+        - I need to report unauthorized activity on my debit card.
+      sec_report_phishing:
+        description: Report phishing call/SMS/email
+        examples:
+        - I received a suspicious call claiming to be from the bank.
+        - Please register a phishing email I received from a supposed bank representative.
+        - I would like to report a fraudulent SMS that appears to be from my bank.
+      sec_fraud_status:
+        description: Check fraud complaint status
+        examples:
+        - What is the current status of my fraud complaint?
+        - Could you please update me on the fraud complaint progress?
+        - I would like to know the latest status of my fraud claim.
+      sec_fraud_refund:
+        description: Check fraud refund status
+        examples:
+        - When will the refund for my fraudulent transaction be credited?
+        - What is the status of my refund for the reported fraud?
+        - I would like to know if the refund for the fraud has been processed.
+      sec_reset_password:
+        description: Reset net banking/login password
+        examples:
+        - I forgot my net banking password
+        - Please reset my online banking password
+        - How can I change my login password?
+      sec_change_password:
+        description: Change transaction/login password
+        examples:
+        - I would like to change my transaction password.
+        - Please help me modify my account login password.
+        - Could you guide me to update my banking password?
+      sec_freeze_account:
+        description: 'TEMPORARILY freeze account for security — emergency action when fraud suspected, account compromised. Account can be unfrozen later. NOT permanent closure. Keywords: freeze, turant band, emergency, fraud hua, kisi ne access kiya'
+        examples:
+        - I would like to temporarily freeze my account due to suspected fraud.
+        - Please initiate a temporary freeze on my account for security reasons.
+        - Could you freeze my account immediately as I suspect unauthorized access?
+      sec_unfreeze_account:
+        description: Unfreeze frozen account
+        examples:
+        - Please unfreeze my account.
+        - I need to unfreeze my account.
+        - Kindly remove the freeze from my account.
+      sec_enable_2fa:
+        description: Enable two-factor authentication
+        examples:
+        - Enable two-factor authentication on my account.
+        - Activate 2FA for my banking profile.
+        - Please set up two-step verification.
+      sec_disable_2fa:
+        description: Disable two-factor authentication
+        examples:
+        - Please disable two-factor authentication for my account.
+        - I would like to turn off 2FA on my profile.
+        - Could you deactivate the two-step verification feature?
+      sec_login_history:
+        description: View login history / active sessions
+        examples:
+        - Please display my recent login history.
+        - Could you provide details of my active sessions?
+        - I would like to view my login activity.
+      sec_logout_all:
+        description: Logout from all devices
+        examples:
+        - Log me out from all my devices
+        - Sign out everywhere
+        - Log out of every device I use
+      sec_register_device:
+        description: Register new device for banking
+        examples:
+        - I would like to register a new device for my account.
+        - Please add my new smartphone to the banking app.
+        - Could you help me register a new device?
+      sec_deregister_device:
+        description: Remove old device from banking
+        examples:
+        - Please remove my old phone from the app.
+        - I would like to deregister my previous device.
+        - Could you delete the device that I no longer use?
+      sec_trusted_devices:
+        description: View/manage trusted devices
+        examples:
+        - Show me the list of my trusted devices.
+        - Please display all devices I have registered as trusted.
+        - I would like to view my trusted device records.
+  smalltalk:
+    intents:
+      st_greeting:
+        description: User says hello
+        examples:
+        - Good morning
+        - Good afternoon
+        - Good evening
+      st_goodbye:
+        description: User says bye
+        examples:
+        - Goodbye for now
+        - See you later
+        - Take care
+      st_thanks:
+        description: User says thanks
+        examples:
+        - Thank you so much for your help.
+        - Thanks a lot for the support.
+        - Many thanks for the quick response.
+      st_help:
+        description: User asks for help
+        examples:
+        - I need some assistance with my account.
+        - Can you help me?
+        - I'm looking for help.
+      st_about:
+        description: User asks about the bot
+        examples:
+        - Could you tell me who you are?
+        - Please explain the identity of this chatbot.
+        - I would like to know the name of this assistant.
+      st_continuation:
+        description: User wants more information, wants to continue exploring after a previous action — aur batao, more, tell me more, what else
+        examples:
+        - Can you tell me more about this?
+        - What else can you share?
+        - Give me more details, please.
+  out_of_scope:
+    intents:
+      oos_general:
+        description: Non-banking query
+        examples:
+        - What is the weather forecast for tomorrow?
+        - Can you tell me today's cricket score?
+        - I would like to order a pizza.

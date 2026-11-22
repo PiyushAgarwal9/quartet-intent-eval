@@ -1,0 +1,754 @@
+{
+ "meta": {
+  "version": "pilot_v1",
+  "date": "2026-08-17",
+  "purpose": "Internal go/no-go pilot only. Pilot items are AI-drafted. In the final benchmark, Hindi used LLM-assisted drafting followed by native-speaker review and finalization; Tamil was human-authored in romanized form with author-rendered Tamil-script versions. Do not publish the pilot items as human-authored.",
+  "design": "5 boundaries x 2 languages (hi, ta) x 2 forms (native, roman) x 1 quartet (A1,A2,B1,B2) = 80 items",
+  "quartet": "A1/A2 = same intent, harmless paraphrase. B1/B2 = minimally different, action-changing counterpart + its paraphrase.",
+  "boundaries": {
+   "B1_polarity": [
+    "cc_block_card",
+    "cc_unblock_card"
+   ],
+   "B2_temporality": [
+    "cc_temp_lock",
+    "cc_block_card"
+   ],
+   "B3_product": [
+    "cc_block_card",
+    "dc_block_card"
+   ],
+   "B4_direction": [
+    "upi_send",
+    "upi_request"
+   ],
+   "B5_act_vs_status": [
+    "pay_transfer",
+    "pay_transfer_status"
+   ]
+  },
+  "provenance_note": "At pilot time, the intended process was full human authoring. In the final benchmark, Hindi used LLM-assisted drafting followed by native-speaker review and finalization, while Tamil was human-authored (romanized) with author-rendered script versions."
+ },
+ "items": [
+  {
+   "id": "B1-hi-rom-A1",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "mera credit card block kar do"
+  },
+  {
+   "id": "B1-hi-rom-A2",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "credit card band karna hai mera"
+  },
+  {
+   "id": "B1-hi-rom-B1",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B1",
+   "gold": "cc_unblock_card",
+   "text": "mera credit card unblock kar do"
+  },
+  {
+   "id": "B1-hi-rom-B2",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B2",
+   "gold": "cc_unblock_card",
+   "text": "credit card wapas chalu karna hai mera"
+  },
+  {
+   "id": "B1-hi-nat-A1",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "मेरा क्रेडिट कार्ड ब्लॉक कर दो"
+  },
+  {
+   "id": "B1-hi-nat-A2",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "मुझे अपना क्रेडिट कार्ड बंद करवाना है"
+  },
+  {
+   "id": "B1-hi-nat-B1",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "native",
+   "role": "B1",
+   "gold": "cc_unblock_card",
+   "text": "मेरा क्रेडिट कार्ड अनब्लॉक कर दो"
+  },
+  {
+   "id": "B1-hi-nat-B2",
+   "boundary": "B1_polarity",
+   "lang": "hi",
+   "form": "native",
+   "role": "B2",
+   "gold": "cc_unblock_card",
+   "text": "मुझे अपना क्रेडिट कार्ड वापस चालू करवाना है"
+  },
+  {
+   "id": "B1-ta-nat-A1",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "என் கிரெடிட் கார்டை பிளாக் பண்ணுங்க"
+  },
+  {
+   "id": "B1-ta-nat-A2",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "என்னுடைய கிரெடிட் கார்டை முடக்க வேண்டும்"
+  },
+  {
+   "id": "B1-ta-nat-B1",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "native",
+   "role": "B1",
+   "gold": "cc_unblock_card",
+   "text": "என் கிரெடிட் கார்டை அன்பிளாக் பண்ணுங்க"
+  },
+  {
+   "id": "B1-ta-nat-B2",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "native",
+   "role": "B2",
+   "gold": "cc_unblock_card",
+   "text": "என்னுடைய கிரெடிட் கார்டை மீண்டும் இயக்க வேண்டும்"
+  },
+  {
+   "id": "B1-ta-rom-A1",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "en credit card ah block pannunga"
+  },
+  {
+   "id": "B1-ta-rom-A2",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "enoda credit card ah mudakkanum"
+  },
+  {
+   "id": "B1-ta-rom-B1",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B1",
+   "gold": "cc_unblock_card",
+   "text": "en credit card ah unblock pannunga"
+  },
+  {
+   "id": "B1-ta-rom-B2",
+   "boundary": "B1_polarity",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B2",
+   "gold": "cc_unblock_card",
+   "text": "enoda credit card ah thirumba activate pannanum"
+  },
+  {
+   "id": "B2-hi-rom-A1",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_temp_lock",
+   "text": "credit card thodi der ke liye lock kar do"
+  },
+  {
+   "id": "B2-hi-rom-A2",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_temp_lock",
+   "text": "card abhi ke liye temporarily band karo, baad mein chalu karunga"
+  },
+  {
+   "id": "B2-hi-rom-B1",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B1",
+   "gold": "cc_block_card",
+   "text": "credit card permanently block kar do"
+  },
+  {
+   "id": "B2-hi-rom-B2",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B2",
+   "gold": "cc_block_card",
+   "text": "card hamesha ke liye band kar do, ab use nahi karna"
+  },
+  {
+   "id": "B2-hi-nat-A1",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_temp_lock",
+   "text": "क्रेडिट कार्ड थोड़ी देर के लिए लॉक कर दो"
+  },
+  {
+   "id": "B2-hi-nat-A2",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_temp_lock",
+   "text": "कार्ड को कुछ समय के लिए बंद कर दो, बाद में चालू करूंगा"
+  },
+  {
+   "id": "B2-hi-nat-B1",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "native",
+   "role": "B1",
+   "gold": "cc_block_card",
+   "text": "क्रेडिट कार्ड हमेशा के लिए ब्लॉक कर दो"
+  },
+  {
+   "id": "B2-hi-nat-B2",
+   "boundary": "B2_temporality",
+   "lang": "hi",
+   "form": "native",
+   "role": "B2",
+   "gold": "cc_block_card",
+   "text": "कार्ड परमानेंट बंद कर दो, अब इस्तेमाल नहीं करना"
+  },
+  {
+   "id": "B2-ta-nat-A1",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_temp_lock",
+   "text": "கிரெடிட் கார்டை கொஞ்ச நேரத்துக்கு லாக் பண்ணுங்க"
+  },
+  {
+   "id": "B2-ta-nat-A2",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_temp_lock",
+   "text": "கார்டை தற்காலிகமா முடக்குங்க, அப்புறம் திறந்துக்கிறேன்"
+  },
+  {
+   "id": "B2-ta-nat-B1",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "native",
+   "role": "B1",
+   "gold": "cc_block_card",
+   "text": "கிரெடிட் கார்டை நிரந்தரமா பிளாக் பண்ணுங்க"
+  },
+  {
+   "id": "B2-ta-nat-B2",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "native",
+   "role": "B2",
+   "gold": "cc_block_card",
+   "text": "கார்டை முழுசா நிறுத்திடுங்க, இனி வேண்டாம்"
+  },
+  {
+   "id": "B2-ta-rom-A1",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_temp_lock",
+   "text": "credit card ah konja neram lock pannunga"
+  },
+  {
+   "id": "B2-ta-rom-A2",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_temp_lock",
+   "text": "card ah temporary ah mudakkunga, apram open pannikaren"
+  },
+  {
+   "id": "B2-ta-rom-B1",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B1",
+   "gold": "cc_block_card",
+   "text": "credit card ah permanent ah block pannunga"
+  },
+  {
+   "id": "B2-ta-rom-B2",
+   "boundary": "B2_temporality",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B2",
+   "gold": "cc_block_card",
+   "text": "card ah muzhusa niruthidunga, ini use pannala"
+  },
+  {
+   "id": "B3-hi-rom-A1",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "mera credit card block karna hai"
+  },
+  {
+   "id": "B3-hi-rom-A2",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "jo credit card hai usko band kar do"
+  },
+  {
+   "id": "B3-hi-rom-B1",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B1",
+   "gold": "dc_block_card",
+   "text": "mera debit card block karna hai"
+  },
+  {
+   "id": "B3-hi-rom-B2",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B2",
+   "gold": "dc_block_card",
+   "text": "jo debit card hai usko band kar do"
+  },
+  {
+   "id": "B3-hi-nat-A1",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "मेरा क्रेडिट कार्ड ब्लॉक करना है"
+  },
+  {
+   "id": "B3-hi-nat-A2",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "जो क्रेडिट कार्ड है उसको बंद कर दो"
+  },
+  {
+   "id": "B3-hi-nat-B1",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "native",
+   "role": "B1",
+   "gold": "dc_block_card",
+   "text": "मेरा डेबिट कार्ड ब्लॉक करना है"
+  },
+  {
+   "id": "B3-hi-nat-B2",
+   "boundary": "B3_product",
+   "lang": "hi",
+   "form": "native",
+   "role": "B2",
+   "gold": "dc_block_card",
+   "text": "जो डेबिट कार्ड है उसको बंद कर दो"
+  },
+  {
+   "id": "B3-ta-nat-A1",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "native",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "என் கிரெடிட் கார்டை பிளாக் பண்ணணும்"
+  },
+  {
+   "id": "B3-ta-nat-A2",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "native",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "கிரெடிட் கார்டு இருக்கே, அதை முடக்கிடுங்க"
+  },
+  {
+   "id": "B3-ta-nat-B1",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "native",
+   "role": "B1",
+   "gold": "dc_block_card",
+   "text": "என் டெபிட் கார்டை பிளாக் பண்ணணும்"
+  },
+  {
+   "id": "B3-ta-nat-B2",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "native",
+   "role": "B2",
+   "gold": "dc_block_card",
+   "text": "டெபிட் கார்டு இருக்கே, அதை முடக்கிடுங்க"
+  },
+  {
+   "id": "B3-ta-rom-A1",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A1",
+   "gold": "cc_block_card",
+   "text": "en credit card ah block pannanum"
+  },
+  {
+   "id": "B3-ta-rom-A2",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A2",
+   "gold": "cc_block_card",
+   "text": "credit card irukke, adha mudakkidunga"
+  },
+  {
+   "id": "B3-ta-rom-B1",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B1",
+   "gold": "dc_block_card",
+   "text": "en debit card ah block pannanum"
+  },
+  {
+   "id": "B3-ta-rom-B2",
+   "boundary": "B3_product",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B2",
+   "gold": "dc_block_card",
+   "text": "debit card irukke, adha mudakkidunga"
+  },
+  {
+   "id": "B4-hi-rom-A1",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A1",
+   "gold": "upi_send",
+   "text": "ravi ko UPI se 500 bhej do"
+  },
+  {
+   "id": "B4-hi-rom-A2",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A2",
+   "gold": "upi_send",
+   "text": "UPI se ravi ko 500 rupaye transfer kar do"
+  },
+  {
+   "id": "B4-hi-rom-B1",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B1",
+   "gold": "upi_request",
+   "text": "ravi se UPI pe 500 mango"
+  },
+  {
+   "id": "B4-hi-rom-B2",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B2",
+   "gold": "upi_request",
+   "text": "UPI pe ravi ko 500 ka request bhejo"
+  },
+  {
+   "id": "B4-hi-nat-A1",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "native",
+   "role": "A1",
+   "gold": "upi_send",
+   "text": "रवि को यूपीआई से 500 भेज दो"
+  },
+  {
+   "id": "B4-hi-nat-A2",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "native",
+   "role": "A2",
+   "gold": "upi_send",
+   "text": "यूपीआई से रवि को 500 रुपये ट्रांसफर कर दो"
+  },
+  {
+   "id": "B4-hi-nat-B1",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "native",
+   "role": "B1",
+   "gold": "upi_request",
+   "text": "रवि से यूपीआई पे 500 मांगो"
+  },
+  {
+   "id": "B4-hi-nat-B2",
+   "boundary": "B4_direction",
+   "lang": "hi",
+   "form": "native",
+   "role": "B2",
+   "gold": "upi_request",
+   "text": "यूपीआई पे रवि को 500 का रिक्वेस्ट भेजो"
+  },
+  {
+   "id": "B4-ta-nat-A1",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "native",
+   "role": "A1",
+   "gold": "upi_send",
+   "text": "ரவிக்கு UPI-ல 500 அனுப்புங்க"
+  },
+  {
+   "id": "B4-ta-nat-A2",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "native",
+   "role": "A2",
+   "gold": "upi_send",
+   "text": "UPI மூலமா ரவிக்கு 500 ரூபாய் டிரான்ஸ்பர் பண்ணுங்க"
+  },
+  {
+   "id": "B4-ta-nat-B1",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "native",
+   "role": "B1",
+   "gold": "upi_request",
+   "text": "ரவிகிட்ட இருந்து UPI-ல 500 கேளுங்க"
+  },
+  {
+   "id": "B4-ta-nat-B2",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "native",
+   "role": "B2",
+   "gold": "upi_request",
+   "text": "UPI-ல ரவிக்கு 500க்கு ரிக்வெஸ்ட் அனுப்புங்க"
+  },
+  {
+   "id": "B4-ta-rom-A1",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A1",
+   "gold": "upi_send",
+   "text": "raviku UPI la 500 anupunga"
+  },
+  {
+   "id": "B4-ta-rom-A2",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A2",
+   "gold": "upi_send",
+   "text": "UPI moolama raviku 500 rupees transfer pannunga"
+  },
+  {
+   "id": "B4-ta-rom-B1",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B1",
+   "gold": "upi_request",
+   "text": "ravi kitta irundhu UPI la 500 kelunga"
+  },
+  {
+   "id": "B4-ta-rom-B2",
+   "boundary": "B4_direction",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B2",
+   "gold": "upi_request",
+   "text": "UPI la raviku 500ku request anupunga"
+  },
+  {
+   "id": "B5-hi-rom-A1",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A1",
+   "gold": "pay_transfer",
+   "text": "amit ko 2000 transfer kar do"
+  },
+  {
+   "id": "B5-hi-rom-A2",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "roman",
+   "role": "A2",
+   "gold": "pay_transfer",
+   "text": "amit ke account mein 2000 daal do"
+  },
+  {
+   "id": "B5-hi-rom-B1",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B1",
+   "gold": "pay_transfer_status",
+   "text": "amit ko jo 2000 bheje the uska kya hua"
+  },
+  {
+   "id": "B5-hi-rom-B2",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "roman",
+   "role": "B2",
+   "gold": "pay_transfer_status",
+   "text": "amit wala 2000 ka transfer pahuncha ya nahi"
+  },
+  {
+   "id": "B5-hi-nat-A1",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "native",
+   "role": "A1",
+   "gold": "pay_transfer",
+   "text": "अमित को 2000 ट्रांसफर कर दो"
+  },
+  {
+   "id": "B5-hi-nat-A2",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "native",
+   "role": "A2",
+   "gold": "pay_transfer",
+   "text": "अमित के अकाउंट में 2000 डाल दो"
+  },
+  {
+   "id": "B5-hi-nat-B1",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "native",
+   "role": "B1",
+   "gold": "pay_transfer_status",
+   "text": "अमित को जो 2000 भेजे थे उसका क्या हुआ"
+  },
+  {
+   "id": "B5-hi-nat-B2",
+   "boundary": "B5_act_vs_status",
+   "lang": "hi",
+   "form": "native",
+   "role": "B2",
+   "gold": "pay_transfer_status",
+   "text": "अमित वाला 2000 का ट्रांसफर पहुंचा या नहीं"
+  },
+  {
+   "id": "B5-ta-nat-A1",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "native",
+   "role": "A1",
+   "gold": "pay_transfer",
+   "text": "அமித்துக்கு 2000 டிரான்ஸ்பர் பண்ணுங்க"
+  },
+  {
+   "id": "B5-ta-nat-A2",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "native",
+   "role": "A2",
+   "gold": "pay_transfer",
+   "text": "அமித் அக்கவுன்ட்ல 2000 போடுங்க"
+  },
+  {
+   "id": "B5-ta-nat-B1",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "native",
+   "role": "B1",
+   "gold": "pay_transfer_status",
+   "text": "அமித்துக்கு அனுப்பின 2000 என்ன ஆச்சு"
+  },
+  {
+   "id": "B5-ta-nat-B2",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "native",
+   "role": "B2",
+   "gold": "pay_transfer_status",
+   "text": "அமித்துக்கு போட்ட 2000 போச்சா இல்லையா"
+  },
+  {
+   "id": "B5-ta-rom-A1",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A1",
+   "gold": "pay_transfer",
+   "text": "amithuku 2000 transfer pannunga"
+  },
+  {
+   "id": "B5-ta-rom-A2",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "roman",
+   "role": "A2",
+   "gold": "pay_transfer",
+   "text": "amith account la 2000 podunga"
+  },
+  {
+   "id": "B5-ta-rom-B1",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B1",
+   "gold": "pay_transfer_status",
+   "text": "amithuku anuppina 2000 enna aachu"
+  },
+  {
+   "id": "B5-ta-rom-B2",
+   "boundary": "B5_act_vs_status",
+   "lang": "ta",
+   "form": "roman",
+   "role": "B2",
+   "gold": "pay_transfer_status",
+   "text": "amithuku potta 2000 pochaa illaya"
+  }
+ ]
+}

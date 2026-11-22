@@ -1,0 +1,5 @@
+# Python 3.10+. Verification (scripts/verify.py) needs only the standard library.
+# Optional re-running of models additionally needs:
+certifi>=2024.0
+PyYAML>=6.0
+# sentence-transformers>=2.7  # only for the e5 arm

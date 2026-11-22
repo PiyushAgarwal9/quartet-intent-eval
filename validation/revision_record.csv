@@ -1,0 +1,17 @@
+quartet,flagged_by,reason_category,resolution
+B01-native-q1,validator2 (validator1 for B15-q1),paraphrases said only 'card'; 'credit' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B01-native-q2,validator2 (validator1 for B15-q1),paraphrases said only 'card'; 'credit' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B01-roman-q1,validator2 (validator1 for B15-q1),paraphrases said only 'card'; 'credit' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B02-native-q1,validator2 (validator1 for B15-q1),product word missing; 'credit card' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B02-native-q2,validator2 (validator1 for B15-q1),product word missing; 'credit card' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B02-roman-q1,validator2 (validator1 for B15-q1),product word missing; 'credit card' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B02-roman-q2,validator2 (validator1 for B15-q1),product word missing; 'credit card' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B03-native-q1,validator2 (validator1 for B15-q1),A2 vague product phrase replaced with 'credit card',revised by native-speaker reviewer; both validators confirmed in writing
+B04-native-q1,validator2 (validator1 for B15-q1),UPI channel word dropped in paraphrases; reinstated,revised by native-speaker reviewer; both validators confirmed in writing
+B04-native-q2,validator2 (validator1 for B15-q1),UPI channel word dropped in paraphrases; reinstated,revised by native-speaker reviewer; both validators confirmed in writing
+B04-roman-q1,validator2 (validator1 for B15-q1),UPI channel word dropped in paraphrases; reinstated,revised by native-speaker reviewer; both validators confirmed in writing
+B04-roman-q2,validator2 (validator1 for B15-q1),UPI channel word dropped in paraphrases; reinstated,revised by native-speaker reviewer; both validators confirmed in writing
+B10-native-q1,validator2 (validator1 for B15-q1),'new card' ambiguous first-vs-replacement; 'pehli baar' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B10-roman-q2,validator2 (validator1 for B15-q1),'new card' ambiguous first-vs-replacement; 'pehli baar' inserted,revised by native-speaker reviewer; both validators confirmed in writing
+B15-roman-q1,validator2 (validator1 for B15-q1),frame overlap with B05 / dropped amount; rephrased,revised by native-speaker reviewer; both validators confirmed in writing
+B15-roman-q2,validator2 (validator1 for B15-q1),frame overlap with B05 / dropped amount; rephrased,revised by native-speaker reviewer; both validators confirmed in writing

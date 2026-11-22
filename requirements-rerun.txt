@@ -1,0 +1,8 @@
+# Exact environment used for the released runs (Python 3.10.12 on the eval host)
+numpy==1.26.4
+torch==2.9.1
+transformers==4.57.6
+sentence-transformers==5.2.0
+PyYAML==6.0.3
+certifi==2026.01.04
+# intfloat/multilingual-e5-base revision: 835193815a3936a24a0ee7dc9e3d48c1fbb19c55

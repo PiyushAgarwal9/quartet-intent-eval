@@ -1,0 +1,481 @@
+item_id,boundary,lang,form,quartet,role,text,gold_intent
+B01-hi-rom-q1-A1,B01,hi,roman,1,A1,mera credit card block kar do,cc_block_card
+B01-hi-rom-q1-A2,B01,hi,roman,1,A2,"credit card nahi mil raha, galat use se pehle ise band karna hai",cc_block_card
+B01-hi-rom-q1-B1,B01,hi,roman,1,B1,mera credit card unblock kar do,cc_unblock_card
+B01-hi-rom-q1-B2,B01,hi,roman,1,B2,"credit card mil gaya, ab is par laga block hata do",cc_unblock_card
+B01-hi-rom-q2-A1,B01,hi,roman,2,A1,app me credit card ko block kahan se karun?,cc_block_card
+B01-hi-rom-q2-A2,B01,hi,roman,2,A2,credit card ka use abhi rokna hai,cc_block_card
+B01-hi-rom-q2-B1,B01,hi,roman,2,B1,app me credit card ko unblock kahan se karun?,cc_unblock_card
+B01-hi-rom-q2-B2,B01,hi,roman,2,B2,credit card dobara chalu karna hai,cc_unblock_card
+B01-hi-nat-q1-A1,B01,hi,native,1,A1,क्रेडिट कार्ड अभी ब्लॉक करना है,cc_block_card
+B01-hi-nat-q1-A2,B01,hi,native,1,A2,"क्रेडिट कार्ड कहीं छूट गया है, इसे बंद कर दीजिए",cc_block_card
+B01-hi-nat-q1-B1,B01,hi,native,1,B1,क्रेडिट कार्ड अभी अनब्लॉक करना है,cc_unblock_card
+B01-hi-nat-q1-B2,B01,hi,native,1,B2,"क्रेडिट कार्ड वापस मिल गया, अब ब्लॉक हटा दीजिए",cc_unblock_card
+B01-hi-nat-q2-A1,B01,hi,native,2,A1,अभी मेरा क्रेडिट कार्ड बंद कर दीजिए,cc_block_card
+B01-hi-nat-q2-A2,B01,hi,native,2,A2,"कोई इस्तेमाल न कर पाए, क्रेडिट कार्ड पर रोक लगा दो",cc_block_card
+B01-hi-nat-q2-B1,B01,hi,native,2,B1,अभी मेरा क्रेडिट कार्ड चालू कर दीजिए,cc_unblock_card
+B01-hi-nat-q2-B2,B01,hi,native,2,B2,"पेमेंट करनी है, क्रेडिट कार्ड फिर से चला दो",cc_unblock_card
+B02-hi-rom-q1-A1,B02,hi,roman,1,A1,credit card par temporary lock laga do,cc_temp_lock
+B02-hi-rom-q1-A2,B02,hi,roman,1,A2,"credit card ghar par hi hai, filhaal use rokna hai",cc_temp_lock
+B02-hi-rom-q1-B1,B02,hi,roman,1,B1,credit card par permanent block laga do,cc_block_card
+B02-hi-rom-q1-B2,B02,hi,roman,1,B2,"credit card chori ho gaya, ise hamesha ke liye band kar do",cc_block_card
+B02-hi-rom-q2-A1,B02,hi,roman,2,A1,is credit card ko kuch din ke liye lock karna hai,cc_temp_lock
+B02-hi-rom-q2-A2,B02,hi,roman,2,A2,trip se lautne tak credit card band rakho,cc_temp_lock
+B02-hi-rom-q2-B1,B02,hi,roman,2,B1,is credit card ko hamesha ke liye block karna hai,cc_block_card
+B02-hi-rom-q2-B2,B02,hi,roman,2,B2,"ab credit card milne ki umeed nahi, poori tarah block kar do",cc_block_card
+B02-hi-nat-q1-A1,B02,hi,native,1,A1,क्रेडिट कार्ड को थोड़े समय के लिए लॉक कर दो,cc_temp_lock
+B02-hi-nat-q1-A2,B02,hi,native,1,A2,"क्रेडिट कार्ड शायद घर में है, अभी अस्थायी रोक लगा दो",cc_temp_lock
+B02-hi-nat-q1-B1,B02,hi,native,1,B1,क्रेडिट कार्ड को हमेशा के लिए ब्लॉक कर दो,cc_block_card
+B02-hi-nat-q1-B2,B02,hi,native,1,B2,"क्रेडिट कार्ड चोरी हो गया है, इसे स्थायी रूप से बंद करना है",cc_block_card
+B02-hi-nat-q2-A1,B02,hi,native,2,A1,मुझे क्रेडिट कार्ड पर टेम्पररी लॉक चाहिए,cc_temp_lock
+B02-hi-nat-q2-A2,B02,hi,native,2,A2,"दो दिन बाद क्रेडिट कार्ड खोल दूँगा, फिलहाल रोक दो",cc_temp_lock
+B02-hi-nat-q2-B1,B02,hi,native,2,B1,मुझे क्रेडिट कार्ड पर परमानेंट ब्लॉक चाहिए,cc_block_card
+B02-hi-nat-q2-B2,B02,hi,native,2,B2,"क्रेडिट कार्ड वापस नहीं मिलेगा, हमेशा के लिए बंद कर दो",cc_block_card
+B03-hi-rom-q1-A1,B03,hi,roman,1,A1,credit card ko abhi block kar do,cc_block_card
+B03-hi-rom-q1-A2,B03,hi,roman,1,A2,"shopping wala card kho gaya, credit card band karna hai",cc_block_card
+B03-hi-rom-q1-B1,B03,hi,roman,1,B1,debit card ko abhi block kar do,dc_block_card
+B03-hi-rom-q1-B2,B03,hi,roman,1,B2,"ATM wala card kho gaya, debit card band karna hai",dc_block_card
+B03-hi-rom-q2-A1,B03,hi,roman,2,A1,credit card ka use turant rok do,cc_block_card
+B03-hi-rom-q2-A2,B03,hi,roman,2,A2,"wallet me credit card nahi hai, block kaise hoga?",cc_block_card
+B03-hi-rom-q2-B1,B03,hi,roman,2,B1,debit card ka use turant rok do,dc_block_card
+B03-hi-rom-q2-B2,B03,hi,roman,2,B2,"wallet me debit card nahi hai, block kaise hoga?",dc_block_card
+B03-hi-nat-q1-A1,B03,hi,native,1,A1,क्रेडिट कार्ड पर ब्लॉक लगा दीजिए,cc_block_card
+B03-hi-nat-q1-A2,B03,hi,native,1,A2,"क्रेडिट कार्ड नहीं मिल रहा, उसे बंद करना है",cc_block_card
+B03-hi-nat-q1-B1,B03,hi,native,1,B1,डेबिट कार्ड पर ब्लॉक लगा दीजिए,dc_block_card
+B03-hi-nat-q1-B2,B03,hi,native,1,B2,"एटीएम वाला कार्ड नहीं मिल रहा, उसे बंद करना है",dc_block_card
+B03-hi-nat-q2-A1,B03,hi,native,2,A1,मेरा क्रेडिट कार्ड बंद कर दो,cc_block_card
+B03-hi-nat-q2-A2,B03,hi,native,2,A2,"क्रेडिट कार्ड कैब में छूट गया, तुरंत रोक लगाओ",cc_block_card
+B03-hi-nat-q2-B1,B03,hi,native,2,B1,मेरा डेबिट कार्ड बंद कर दो,dc_block_card
+B03-hi-nat-q2-B2,B03,hi,native,2,B2,"डेबिट कार्ड कैब में छूट गया, तुरंत रोक लगाओ",dc_block_card
+B04-hi-rom-q1-A1,B04,hi,roman,1,A1,Ravi ko UPI par 500 bhejne hain,upi_send
+B04-hi-rom-q1-A2,B04,hi,roman,1,A2,lunch ke 500 Ravi ko UPI se bhej do,upi_send
+B04-hi-rom-q1-B1,B04,hi,roman,1,B1,Ravi se UPI par 500 mangne hain,upi_request
+B04-hi-rom-q1-B2,B04,hi,roman,1,B2,"lunch ke 500 Ravi se lene hain, UPI request bhej do",upi_request
+B04-hi-rom-q2-A1,B04,hi,roman,2,A1,Amit ko 1000 ka UPI payment kar do,upi_send
+B04-hi-rom-q2-A2,B04,hi,roman,2,A2,"petrol ke paise dene hain, Amit ko UPI se 1000 bhej do",upi_send
+B04-hi-rom-q2-B1,B04,hi,roman,2,B1,Amit se 1000 ka UPI request kar do,upi_request
+B04-hi-rom-q2-B2,B04,hi,roman,2,B2,petrol ke 1000 Amit se UPI par lene hain,upi_request
+B04-hi-nat-q1-A1,B04,hi,native,1,A1,रोहन को UPI से 600 रुपये भेजने हैं,upi_send
+B04-hi-nat-q1-A2,B04,hi,native,1,A2,मूवी टिकट के 600 रुपये रोहन को UPI से दे दो,upi_send
+B04-hi-nat-q1-B1,B04,hi,native,1,B1,रोहन से UPI पर 600 रुपये माँगने हैं,upi_request
+B04-hi-nat-q1-B2,B04,hi,native,1,B2,मूवी टिकट के 600 रुपये रोहन से UPI पर लेने हैं,upi_request
+B04-hi-nat-q2-A1,B04,hi,native,2,A1,"नेहा को 2,000 रुपये UPI कर दो",upi_send
+B04-hi-nat-q2-A2,B04,hi,native,2,A2,"ट्रिप का हिसाब है, नेहा को UPI से 2,000 भेजने हैं",upi_send
+B04-hi-nat-q2-B1,B04,hi,native,2,B1,"नेहा से 2,000 रुपये UPI पर माँग लो",upi_request
+B04-hi-nat-q2-B2,B04,hi,native,2,B2,"ट्रिप के 2,000 रुपये नेहा से UPI पर लेने हैं",upi_request
+B05-hi-rom-q1-A1,B05,hi,roman,1,A1,painter ko 5000 ka transfer karna hai,pay_transfer
+B05-hi-rom-q1-A2,B05,hi,roman,1,A2,"kaam poora ho gaya, painter ke account me 5000 bhej do",pay_transfer
+B05-hi-rom-q1-B1,B05,hi,roman,1,B1,painter ko 5000 ke transfer ka status dekhna hai,pay_transfer_status
+B05-hi-rom-q1-B2,B05,hi,roman,1,B2,"painter bol raha paise nahi aaye, transfer zara check karo",pay_transfer_status
+B05-hi-rom-q2-A1,B05,hi,roman,2,A1,mausi ke account me 2000 ka transfer karna hai,pay_transfer
+B05-hi-rom-q2-A2,B05,hi,roman,2,A2,mausi ko 2000 ka bank payment bhej do,pay_transfer
+B05-hi-rom-q2-B1,B05,hi,roman,2,B1,mausi ke account me 2000 ke transfer ka status dekhna hai,pay_transfer_status
+B05-hi-rom-q2-B2,B05,hi,roman,2,B2,"mausi ko bheje paise pahunche ya nahi, dekhna hai",pay_transfer_status
+B05-hi-nat-q1-A1,B05,hi,native,1,A1,"स्कूल को 10,000 रुपये का ट्रांसफर करना है",pay_transfer
+B05-hi-nat-q1-A2,B05,hi,native,1,A2,"बच्चे की फीस भेजनी है, स्कूल के खाते में 10,000 डाल दो",pay_transfer
+B05-hi-nat-q1-B1,B05,hi,native,1,B1,"स्कूल को 10,000 रुपये के ट्रांसफर का स्टेटस देखना है",pay_transfer_status
+B05-hi-nat-q1-B2,B05,hi,native,1,B2,"स्कूल वाले कह रहे फीस नहीं पहुँची, ट्रांसफर चेक करो",pay_transfer_status
+B05-hi-nat-q2-A1,B05,hi,native,2,A1,"मकान मालिक को 15,000 रुपये का ट्रांसफर करना है",pay_transfer
+B05-hi-nat-q2-A2,B05,hi,native,2,A2,इस महीने का किराया खाते में भेज दो,pay_transfer
+B05-hi-nat-q2-B1,B05,hi,native,2,B1,"मकान मालिक को 15,000 रुपये के ट्रांसफर का स्टेटस देखना है",pay_transfer_status
+B05-hi-nat-q2-B2,B05,hi,native,2,B2,"किराया भेजा था, पहुँचा या नहीं देखो",pay_transfer_status
+B06-hi-rom-q1-A1,B06,hi,roman,1,A1,credit card ka bill pay karna hai,cc_pay_bill
+B06-hi-rom-q1-A2,B06,hi,roman,1,A2,"salary aa gayi, ab card ki payment kar do",cc_pay_bill
+B06-hi-rom-q1-B1,B06,hi,roman,1,B1,credit card ka outstanding check karna hai,cc_total_outstanding
+B06-hi-rom-q1-B2,B06,hi,roman,1,B2,card par abhi total kitna dena hai?,cc_total_outstanding
+B06-hi-rom-q2-A1,B06,hi,roman,2,A1,aaj card bill jama kar do,cc_pay_bill
+B06-hi-rom-q2-A2,B06,hi,roman,2,A2,"due date hai, credit card ka poora bill bharna hai",cc_pay_bill
+B06-hi-rom-q2-B1,B06,hi,roman,2,B1,aaj card ka outstanding bata do,cc_total_outstanding
+B06-hi-rom-q2-B2,B06,hi,roman,2,B2,due date se pehle dekhna hai kitna baki hai,cc_total_outstanding
+B06-hi-nat-q1-A1,B06,hi,native,1,A1,क्रेडिट कार्ड का बिल भरना है,cc_pay_bill
+B06-hi-nat-q1-A2,B06,hi,native,1,A2,"स्टेटमेंट आ गई है, कार्ड की पेमेंट कर दीजिए",cc_pay_bill
+B06-hi-nat-q1-B1,B06,hi,native,1,B1,क्रेडिट कार्ड का आउटस्टैंडिंग देखना है,cc_total_outstanding
+B06-hi-nat-q1-B2,B06,hi,native,1,B2,स्टेटमेंट में कुल कितना देना है?,cc_total_outstanding
+B06-hi-nat-q2-A1,B06,hi,native,2,A1,कार्ड का पूरा बकाया भरना है,cc_pay_bill
+B06-hi-nat-q2-A2,B06,hi,native,2,A2,"आज आखिरी तारीख है, बिल जमा करना है",cc_pay_bill
+B06-hi-nat-q2-B1,B06,hi,native,2,B1,कार्ड का पूरा बकाया देखना है,cc_total_outstanding
+B06-hi-nat-q2-B2,B06,hi,native,2,B2,"आज कितना कार्ड बिल देना है, पहले बता दीजिए",cc_total_outstanding
+B07-hi-rom-q1-A1,B07,hi,roman,1,A1,credit card ka total due kitna hai?,cc_total_outstanding
+B07-hi-rom-q1-A2,B07,hi,roman,1,A2,is baar poora card bill kitna bana,cc_total_outstanding
+B07-hi-rom-q1-B1,B07,hi,roman,1,B1,credit card ka minimum due kitna hai?,cc_minimum_due
+B07-hi-rom-q1-B2,B07,hi,roman,1,B2,is baar kam se kam kitna bharna padega,cc_minimum_due
+B07-hi-rom-q2-A1,B07,hi,roman,2,A1,statement me total payable amount batao,cc_total_outstanding
+B07-hi-rom-q2-A2,B07,hi,roman,2,A2,card ka sara bacha hua amount dekhna hai,cc_total_outstanding
+B07-hi-rom-q2-B1,B07,hi,roman,2,B1,statement me minimum payable amount batao,cc_minimum_due
+B07-hi-rom-q2-B2,B07,hi,roman,2,B2,abhi sabse kam kitni payment kar sakta hun?,cc_minimum_due
+B07-hi-nat-q1-A1,B07,hi,native,1,A1,कार्ड का कुल बकाया कितना है?,cc_total_outstanding
+B07-hi-nat-q1-A2,B07,hi,native,1,A2,"इस महीने पूरा बिल कितने का बना, ज़रा देखना",cc_total_outstanding
+B07-hi-nat-q1-B1,B07,hi,native,1,B1,कार्ड का मिनिमम ड्यू कितना है?,cc_minimum_due
+B07-hi-nat-q1-B2,B07,hi,native,1,B2,अभी कम से कम कितनी रकम भरनी होगी?,cc_minimum_due
+B07-hi-nat-q2-A1,B07,hi,native,2,A1,स्टेटमेंट में टोटल ड्यू बता दीजिए,cc_total_outstanding
+B07-hi-nat-q2-A2,B07,hi,native,2,A2,"कार्ड पर कुल कितना देना है, देखिए",cc_total_outstanding
+B07-hi-nat-q2-B1,B07,hi,native,2,B1,स्टेटमेंट में मिनिमम ड्यू बता दीजिए,cc_minimum_due
+B07-hi-nat-q2-B2,B07,hi,native,2,B2,कार्ड चालू रखने के लिए अभी कितना भरना जरूरी है?,cc_minimum_due
+B08-hi-rom-q1-A1,B08,hi,roman,1,A1,credit card ki limit badha do,cc_limit_increase
+B08-hi-rom-q1-A2,B08,hi,roman,1,A2,"shaadi ki shopping hai, thodi zyada limit chahiye yaar",cc_limit_increase
+B08-hi-rom-q1-B1,B08,hi,roman,1,B1,credit card ki limit bata do,cc_check_limit
+B08-hi-rom-q1-B2,B08,hi,roman,1,B2,shopping se pehle current card limit check karni hai,cc_check_limit
+B08-hi-rom-q2-A1,B08,hi,roman,2,A1,card limit increase kaise hogi?,cc_limit_increase
+B08-hi-rom-q2-A2,B08,hi,roman,2,A2,"bada purchase hai, limit upar karwani hai",cc_limit_increase
+B08-hi-rom-q2-B1,B08,hi,roman,2,B1,card limit check kaise hogi?,cc_check_limit
+B08-hi-rom-q2-B2,B08,hi,roman,2,B2,bada purchase karne se pehle limit dekhni hai,cc_check_limit
+B08-hi-nat-q1-A1,B08,hi,native,1,A1,क्रेडिट कार्ड की लिमिट बढ़ानी है,cc_limit_increase
+B08-hi-nat-q1-A2,B08,hi,native,1,A2,"त्योहार की खरीदारी है, थोड़ी और लिमिट चाहिए",cc_limit_increase
+B08-hi-nat-q1-B1,B08,hi,native,1,B1,क्रेडिट कार्ड की लिमिट देखनी है,cc_check_limit
+B08-hi-nat-q1-B2,B08,hi,native,1,B2,खरीदारी से पहले पता करना है अभी कितनी लिमिट है,cc_check_limit
+B08-hi-nat-q2-A1,B08,hi,native,2,A1,कार्ड की लिमिट बढ़ाने का तरीका बताइए,cc_limit_increase
+B08-hi-nat-q2-A2,B08,hi,native,2,A2,"बड़ी पेमेंट करनी है, लिमिट कम पड़ रही है",cc_limit_increase
+B08-hi-nat-q2-B1,B08,hi,native,2,B1,कार्ड की लिमिट देखने का तरीका बताइए,cc_check_limit
+B08-hi-nat-q2-B2,B08,hi,native,2,B2,ऐप में कार्ड लिमिट कहाँ दिखती है?,cc_check_limit
+B09-hi-rom-q1-A1,B09,hi,roman,1,A1,mera savings account close kar do,acc_close_account
+B09-hi-rom-q1-A2,B09,hi,roman,1,A2,"ye account ab nahi chahiye, permanently band karna hai",acc_close_account
+B09-hi-rom-q1-B1,B09,hi,roman,1,B1,mera savings account freeze kar do,sec_freeze_account
+B09-hi-rom-q1-B2,B09,hi,roman,1,B2,"kuch gadbad lag rahi hai, filhaal account rok do",sec_freeze_account
+B09-hi-rom-q2-A1,B09,hi,roman,2,A1,salary account band karne ka process batao,acc_close_account
+B09-hi-rom-q2-A2,B09,hi,roman,2,A2,"job change ho gayi, purana salary account close karna hai",acc_close_account
+B09-hi-rom-q2-B1,B09,hi,roman,2,B1,salary account freeze karne ka process batao,sec_freeze_account
+B09-hi-rom-q2-B2,B09,hi,roman,2,B2,abhi is account se koi transaction nahi hone dena,sec_freeze_account
+B09-hi-nat-q1-A1,B09,hi,native,1,A1,मेरा सेविंग्स अकाउंट क्लोज कर दीजिए,acc_close_account
+B09-hi-nat-q1-A2,B09,hi,native,1,A2,"यह खाता अब रखना नहीं है, पूरी तरह बंद कर दो",acc_close_account
+B09-hi-nat-q1-B1,B09,hi,native,1,B1,मेरा सेविंग्स अकाउंट फ्रीज कर दीजिए,sec_freeze_account
+B09-hi-nat-q1-B2,B09,hi,native,1,B2,अभी खाते से लेन-देन रोकना है,sec_freeze_account
+B09-hi-nat-q2-A1,B09,hi,native,2,A1,पुराना खाता बंद कैसे होगा?,acc_close_account
+B09-hi-nat-q2-A2,B09,hi,native,2,A2,"कई महीनों से इस्तेमाल नहीं किया, अकाउंट क्लोज करना है",acc_close_account
+B09-hi-nat-q2-B1,B09,hi,native,2,B1,पुराना खाता फ्रीज कैसे होगा?,sec_freeze_account
+B09-hi-nat-q2-B2,B09,hi,native,2,B2,कुछ दिनों के लिए खाते पर रोक लगानी है,sec_freeze_account
+B10-hi-rom-q1-A1,B10,hi,roman,1,A1,replacement debit card ke liye apply karna hai,dc_replace_card
+B10-hi-rom-q1-A2,B10,hi,roman,1,A2,"card ki chip kharab ho gayi, doosra card chahiye",dc_replace_card
+B10-hi-rom-q1-B1,B10,hi,roman,1,B1,new debit card ke liye apply karna hai,dc_apply_new
+B10-hi-rom-q1-B2,B10,hi,roman,1,B2,account ke liye pehli baar debit card lena hai,dc_apply_new
+B10-hi-rom-q2-A1,B10,hi,roman,2,A1,replacement debit card kaise milega?,dc_replace_card
+B10-hi-rom-q2-A2,B10,hi,roman,2,A2,"ATM me card damage ho gaya, badalwana hai",dc_replace_card
+B10-hi-rom-q2-B1,B10,hi,roman,2,B1,"pehli baar debit card lena hai, kaise milega?",dc_apply_new
+B10-hi-rom-q2-B2,B10,hi,roman,2,B2,"abhi tak debit card nahi liya, naya banwana hai",dc_apply_new
+B10-hi-nat-q1-A1,B10,hi,native,1,A1,रिप्लेसमेंट डेबिट कार्ड चाहिए,dc_replace_card
+B10-hi-nat-q1-A2,B10,hi,native,1,A2,"पुराना कार्ड टूट गया है, उसकी जगह दूसरा भेजिए",dc_replace_card
+B10-hi-nat-q1-B1,B10,hi,native,1,B1,पहली बार डेबिट कार्ड लेना है,dc_apply_new
+B10-hi-nat-q1-B2,B10,hi,native,1,B2,"मेरे खाते पर अभी कोई कार्ड नहीं है, पहला बनवाना है",dc_apply_new
+B10-hi-nat-q2-A1,B10,hi,native,2,A1,डेबिट कार्ड बदलने के लिए आवेदन करना है,dc_replace_card
+B10-hi-nat-q2-A2,B10,hi,native,2,A2,"कार्ड मशीन में नहीं चल रहा, रिप्लेसमेंट चाहिए",dc_replace_card
+B10-hi-nat-q2-B1,B10,hi,native,2,B1,डेबिट कार्ड लेने के लिए आवेदन करना है,dc_apply_new
+B10-hi-nat-q2-B2,B10,hi,native,2,B2,"नया खाता खुला है, उसके लिए कार्ड चाहिए",dc_apply_new
+B11-hi-rom-q1-A1,B11,hi,roman,1,A1,loan ka poora amount prepay karna hai,loan_foreclosure
+B11-hi-rom-q1-A2,B11,hi,roman,1,A2,"bonus mila hai, saara balance chukakar loan band karunga",loan_foreclosure
+B11-hi-rom-q1-B1,B11,hi,roman,1,B1,loan ka kuch amount prepay karna hai,loan_part_prepayment
+B11-hi-rom-q1-B2,B11,hi,roman,1,B2,50000 extra jama karke principal kam karna hai,loan_part_prepayment
+B11-hi-rom-q2-A1,B11,hi,roman,2,A1,loan foreclosure ka process kya hai?,loan_foreclosure
+B11-hi-rom-q2-A2,B11,hi,roman,2,A2,bacha hua loan ek baar me clear karna hai,loan_foreclosure
+B11-hi-rom-q2-B1,B11,hi,roman,2,B1,loan part prepayment ka process kya hai?,loan_part_prepayment
+B11-hi-rom-q2-B2,B11,hi,roman,2,B2,1 lakh ka partial payment karna hai,loan_part_prepayment
+B11-hi-nat-q1-A1,B11,hi,native,1,A1,लोन की पूरी रकम पहले भरनी है,loan_foreclosure
+B11-hi-nat-q1-A2,B11,hi,native,1,A2,"पैसे मिल गए हैं, पूरा बकाया देकर लोन बंद करना है",loan_foreclosure
+B11-hi-nat-q1-B1,B11,hi,native,1,B1,लोन की कुछ रकम पहले भरनी है,loan_part_prepayment
+B11-hi-nat-q1-B2,B11,hi,native,1,B2,"50,000 रुपये अतिरिक्त जमा करके मूलधन घटाना है",loan_part_prepayment
+B11-hi-nat-q2-A1,B11,hi,native,2,A1,लोन फोरक्लोजर कैसे होगा?,loan_foreclosure
+B11-hi-nat-q2-A2,B11,hi,native,2,A2,बची हुई सारी रकम एक साथ चुका दूँगा,loan_foreclosure
+B11-hi-nat-q2-B1,B11,hi,native,2,B1,लोन पार्ट पेमेंट कैसे होगी?,loan_part_prepayment
+B11-hi-nat-q2-B2,B11,hi,native,2,B2,अभी 1 लाख रुपये आंशिक रूप से जमा करने हैं,loan_part_prepayment
+B12-hi-rom-q1-A1,B12,hi,roman,1,A1,mere loan ka outstanding batao,loan_outstanding
+B12-hi-rom-q1-A2,B12,hi,roman,1,A2,abhi kitna loan chukana baki hai?,loan_outstanding
+B12-hi-rom-q1-B1,B12,hi,roman,1,B1,mere loan ki next EMI date batao,loan_next_emi_date
+B12-hi-rom-q1-B2,B12,hi,roman,1,B2,agli kist kis din kategi?,loan_next_emi_date
+B12-hi-rom-q2-A1,B12,hi,roman,2,A1,home loan ka remaining balance dekhna hai,loan_outstanding
+B12-hi-rom-q2-A2,B12,hi,roman,2,A2,ghar wale loan me kitna paisa reh gaya,loan_outstanding
+B12-hi-rom-q2-B1,B12,hi,roman,2,B1,home loan ki upcoming EMI date dekhni hai,loan_next_emi_date
+B12-hi-rom-q2-B2,B12,hi,roman,2,B2,ghar wale loan ki agli EMI kab due hai?,loan_next_emi_date
+B12-hi-nat-q1-A1,B12,hi,native,1,A1,मेरे लोन का बकाया बताइए,loan_outstanding
+B12-hi-nat-q1-A2,B12,hi,native,1,A2,लोन में अभी कितने पैसे चुकाने बाकी हैं?,loan_outstanding
+B12-hi-nat-q1-B1,B12,hi,native,1,B1,मेरे लोन की अगली EMI की तारीख बताइए,loan_next_emi_date
+B12-hi-nat-q1-B2,B12,hi,native,1,B2,अगली किस्त किस दिन कटेगी?,loan_next_emi_date
+B12-hi-nat-q2-A1,B12,hi,native,2,A1,कार लोन का बचा हुआ अमाउंट देखना है,loan_outstanding
+B12-hi-nat-q2-A2,B12,hi,native,2,A2,गाड़ी के लोन में कुल कितना बाकी है?,loan_outstanding
+B12-hi-nat-q2-B1,B12,hi,native,2,B1,कार लोन की अगली EMI की तारीख देखनी है,loan_next_emi_date
+B12-hi-nat-q2-B2,B12,hi,native,2,B2,गाड़ी की अगली किस्त कब आएगी?,loan_next_emi_date
+B13-hi-rom-q1-A1,B13,hi,roman,1,A1,card fraud ki complaint register karni hai,sec_report_fraud
+B13-hi-rom-q1-A2,B13,hi,roman,1,A2,"card se 10000 rupaye kat gaye, ye payment maine nahi ki, complaint karni hai",sec_report_fraud
+B13-hi-rom-q1-B1,B13,hi,roman,1,B1,card fraud ki complaint ka status dekhna hai,sec_fraud_status
+B13-hi-rom-q1-B2,B13,hi,roman,1,B2,10000 rupaye wale unauthorized transaction ki report par kya hua?,sec_fraud_status
+B13-hi-rom-q2-A1,B13,hi,roman,2,A1,UPI fraud report karna hai,sec_report_fraud
+B13-hi-rom-q2-A2,B13,hi,roman,2,A2,"anjaan UPI id par 2000 chale gaye, complaint likho",sec_report_fraud
+B13-hi-rom-q2-B1,B13,hi,roman,2,B1,UPI fraud report ka status dekhna hai,sec_fraud_status
+B13-hi-rom-q2-B2,B13,hi,roman,2,B2,2000 wali UPI complaint kahan tak pahunchi?,sec_fraud_status
+B13-hi-nat-q1-A1,B13,hi,native,1,A1,कार्ड फ्रॉड की शिकायत दर्ज करनी है,sec_report_fraud
+B13-hi-nat-q1-A2,B13,hi,native,1,A2,"कार्ड से 5,000 रुपये कटे हैं, यह पेमेंट मेरी नहीं है, शिकायत दर्ज कर दीजिए",sec_report_fraud
+B13-hi-nat-q1-B1,B13,hi,native,1,B1,कार्ड फ्रॉड की शिकायत का स्टेटस देखना है,sec_fraud_status
+B13-hi-nat-q1-B2,B13,hi,native,1,B2,"5,000 रुपये वाली फ्रॉड रिपोर्ट पर क्या अपडेट है?",sec_fraud_status
+B13-hi-nat-q2-A1,B13,hi,native,2,A1,UPI फ्रॉड रिपोर्ट करना है,sec_report_fraud
+B13-hi-nat-q2-A2,B13,hi,native,2,A2,"रात में 3,000 रुपये कट गए, मैंने पेमेंट नहीं की, शिकायत लिखिए",sec_report_fraud
+B13-hi-nat-q2-B1,B13,hi,native,2,B1,UPI फ्रॉड रिपोर्ट का स्टेटस देखना है,sec_fraud_status
+B13-hi-nat-q2-B2,B13,hi,native,2,B2,"3,000 रुपये वाली UPI शिकायत कहाँ तक पहुँची?",sec_fraud_status
+B14-hi-rom-q1-A1,B14,hi,roman,1,A1,debit card ka PIN reset karna hai,dc_reset_pin
+B14-hi-rom-q1-A2,B14,hi,roman,1,A2,"purana PIN yaad nahi, naya set karna hai",dc_reset_pin
+B14-hi-rom-q1-B1,B14,hi,roman,1,B1,debit card ka PIN generate karna hai,dc_generate_pin
+B14-hi-rom-q1-B2,B14,hi,roman,1,B2,"naya card aaya hai, pehli baar PIN banana hai",dc_generate_pin
+B14-hi-rom-q2-A1,B14,hi,roman,2,A1,existing card ka PIN reset kaise hoga?,dc_reset_pin
+B14-hi-rom-q2-A2,B14,hi,roman,2,A2,"teen baar galat PIN dala, ab ise badalna hai",dc_reset_pin
+B14-hi-rom-q2-B1,B14,hi,roman,2,B1,new card ka PIN generate kaise hoga?,dc_generate_pin
+B14-hi-rom-q2-B2,B14,hi,roman,2,B2,"courier se card mila hai, first-time PIN set karna hai",dc_generate_pin
+B14-hi-nat-q1-A1,B14,hi,native,1,A1,डेबिट कार्ड का PIN रीसेट करना है,dc_reset_pin
+B14-hi-nat-q1-A2,B14,hi,native,1,A2,"पुराना PIN भूल गया हूँ, नया सेट करना है",dc_reset_pin
+B14-hi-nat-q1-B1,B14,hi,native,1,B1,डेबिट कार्ड का PIN जनरेट करना है,dc_generate_pin
+B14-hi-nat-q1-B2,B14,hi,native,1,B2,"नया कार्ड मिला है, पहली बार PIN बनाना है",dc_generate_pin
+B14-hi-nat-q2-A1,B14,hi,native,2,A1,पुराने कार्ड का PIN कैसे बदलूँ?,dc_reset_pin
+B14-hi-nat-q2-A2,B14,hi,native,2,A2,"PIN याद नहीं आ रहा, रीसेट का तरीका बताइए",dc_reset_pin
+B14-hi-nat-q2-B1,B14,hi,native,2,B1,नए कार्ड का PIN कैसे बनाऊँ?,dc_generate_pin
+B14-hi-nat-q2-B2,B14,hi,native,2,B2,"कार्ड आज मिला है, पहला PIN सेट करना है",dc_generate_pin
+B15-hi-rom-q1-A1,B15,hi,roman,1,A1,Ravi ko 8000 isi waqt transfer kar do,pay_transfer
+B15-hi-rom-q1-A2,B15,hi,roman,1,A2,"payment urgent hai, Ravi ko 8000 abhi bhejne hain",pay_transfer
+B15-hi-rom-q1-B1,B15,hi,roman,1,B1,Ravi ko 8000 kal transfer kar do,pay_schedule_transfer
+B15-hi-rom-q1-B2,B15,hi,roman,1,B2,Ravi ka payment kal ke liye schedule karna hai,pay_schedule_transfer
+B15-hi-rom-q2-A1,B15,hi,roman,2,A1,Pooja ko 3000 aaj hi bhejne hain,pay_transfer
+B15-hi-rom-q2-A2,B15,hi,roman,2,A2,Pooja ke account me turant 3000 daal do,pay_transfer
+B15-hi-rom-q2-B1,B15,hi,roman,2,B1,Pooja ko 3000 Monday ko bhejne hain,pay_schedule_transfer
+B15-hi-rom-q2-B2,B15,hi,roman,2,B2,Pooja ko 3000 ka transfer agle Monday ke liye set kar do,pay_schedule_transfer
+B15-hi-nat-q1-A1,B15,hi,native,1,A1,"सुरेश को 4,000 रुपये अभी भेज दो",pay_transfer
+B15-hi-nat-q1-A2,B15,hi,native,1,A2,"पेमेंट रुकी है, सुरेश को तुरंत ट्रांसफर करना है",pay_transfer
+B15-hi-nat-q1-B1,B15,hi,native,1,B1,"सुरेश को 4,000 रुपये कल भेज दो",pay_schedule_transfer
+B15-hi-nat-q1-B2,B15,hi,native,1,B2,सुरेश का ट्रांसफर कल के लिए शेड्यूल कर दो,pay_schedule_transfer
+B15-hi-nat-q2-A1,B15,hi,native,2,A1,"मकान मालिक को 15,000 रुपये आज ही भेजने हैं",pay_transfer
+B15-hi-nat-q2-A2,B15,hi,native,2,A2,किराया अभी ट्रांसफर कर दीजिए,pay_transfer
+B15-hi-nat-q2-B1,B15,hi,native,2,B1,"मकान मालिक को 15,000 रुपये परसों भेजने हैं",pay_schedule_transfer
+B15-hi-nat-q2-B2,B15,hi,native,2,B2,किराये का ट्रांसफर परसों के लिए लगा दीजिए,pay_schedule_transfer
+B01-ta-rom-q1-A1,B01,ta,roman,1,A1,En credit card ah ippo block pannu.,cc_block_card
+B01-ta-rom-q1-A2,B01,ta,roman,1,A2,"Enoda credit card ah block panna vendum, seekiram pannunga.",cc_block_card
+B01-ta-rom-q1-B1,B01,ta,roman,1,B1,En credit card ah ippo unblock pannu.,cc_unblock_card
+B01-ta-rom-q1-B2,B01,ta,roman,1,B2,"Enoda credit card ah unblock panna vendum, seekiram pannunga.",cc_unblock_card
+B01-ta-rom-q2-A1,B01,ta,roman,2,A1,"Credit card ah block panna mudiyuma, app la option kaanom.",cc_block_card
+B01-ta-rom-q2-A2,B01,ta,roman,2,A2,"Credit card ah block pannuveengala, app la andha option kaanom.",cc_block_card
+B01-ta-rom-q2-B1,B01,ta,roman,2,B1,"Credit card ah unblock panna mudiyuma, app la option kaanom.",cc_unblock_card
+B01-ta-rom-q2-B2,B01,ta,roman,2,B2,"Credit card ah unblock pannuveengala, enna kitta app la option illa.",cc_unblock_card
+B02-ta-rom-q1-A1,B02,ta,roman,1,A1,"Rendu vaaram trip poren, trip la irukkura varaikkum en credit card ah temporary ah lock pannunga.",cc_temp_lock
+B02-ta-rom-q1-A2,B02,ta,roman,1,A2,"Trip la irukkumbothu credit card use pannamaten, so temporary ah lock pannidunga.",cc_temp_lock
+B02-ta-rom-q1-B1,B02,ta,roman,1,B1,"En credit card permanent ah tholainjuduchu, andha card ah block pannu.",cc_block_card
+B02-ta-rom-q1-B2,B02,ta,roman,1,B2,"Andha credit card thirumba kedaikave kedaiyathu, so permanent ah block pannidunga.",cc_block_card
+B02-ta-rom-q2-A1,B02,ta,roman,2,A1,"Vaaram full ah hospital la irupen, andha neram ku credit card ah lock pannidu.",cc_temp_lock
+B02-ta-rom-q2-A2,B02,ta,roman,2,A2,"Konja naala hospital admit aaga poren, adhunaala credit card ku avasyam illa, temporary ah lock pannunga.",cc_temp_lock
+B02-ta-rom-q2-B1,B02,ta,roman,2,B1,"En credit card ah innum use panna pogala, replacement venaam, permanent ah block pannu.",cc_block_card
+B02-ta-rom-q2-B2,B02,ta,roman,2,B2,"Credit card ah thirumba use pannaporadhu illa, replacement thevai illama permanent ah block pannunga.",cc_block_card
+B03-ta-rom-q1-A1,B03,ta,roman,1,A1,"Wallet kanaama poyiduchu, adhula irundha en credit card ah block pannu.",cc_block_card
+B03-ta-rom-q1-A2,B03,ta,roman,1,A2,"En credit card wallet oda serandhu tholanju poyiduchu, andha card ah ippove block pannidunga.",cc_block_card
+B03-ta-rom-q1-B1,B03,ta,roman,1,B1,"Wallet kanaamal poyiduchu, adhula irundha en debit card ah block pannunga.",dc_block_card
+B03-ta-rom-q1-B2,B03,ta,roman,1,B2,"En debit card wallet oda serandhu poyiduchu, andha card ah ippove block pannidunga.",dc_block_card
+B03-ta-rom-q2-A1,B03,ta,roman,2,A1,"Fraud call la en credit card details kettanga, andha credit card ah block pannunga.",cc_block_card
+B03-ta-rom-q2-A2,B03,ta,roman,2,A2,"Yaaro call panni credit card number kettu vaangittanga, andha card ah ippove block pannidunga.",cc_block_card
+B03-ta-rom-q2-B1,B03,ta,roman,2,B1,"Fraud call vanthu en debit card details kettanga, andha debit card ah block pannunga.",dc_block_card
+B03-ta-rom-q2-B2,B03,ta,roman,2,B2,"Yaaro call panni debit card number kettu vaangittanga, andha card ah ippove block pannidunga.",dc_block_card
+B04-ta-rom-q1-A1,B04,ta,roman,1,A1,Kumar ku 500 rupees UPI la ippove anupunga.,upi_send
+B04-ta-rom-q1-A2,B04,ta,roman,1,A2,500 rupees Kumar kitta UPI moolama send pannanum.,upi_send
+B04-ta-rom-q1-B1,B04,ta,roman,1,B1,Kumar kitta irundhu 500 rupees UPI la ippove request pannunga.,upi_request
+B04-ta-rom-q1-B2,B04,ta,roman,1,B2,500 rupees Kumar kitta irundhu UPI moolama vaanga vendum.,upi_request
+B04-ta-rom-q2-A1,B04,ta,roman,2,A1,Rent ku 8000 rupees Priya kitta UPI la anupanum.,upi_send
+B04-ta-rom-q2-A2,B04,ta,roman,2,A2,8000 rupees Priya ku UPI moolama pay pannanum ippove.,upi_send
+B04-ta-rom-q2-B1,B04,ta,roman,2,B1,Rent ku 8000 rupees Priya kitta irundhu UPI la request pannanum.,upi_request
+B04-ta-rom-q2-B2,B04,ta,roman,2,B2,8000 rupees Priya kitta irundhu UPI moolama vaanga vendum ippove.,upi_request
+B05-ta-rom-q1-A1,B05,ta,roman,1,A1,Priya ku 3000 rupees ippove transfer pannu.,pay_transfer
+B05-ta-rom-q1-A2,B05,ta,roman,1,A2,3000 rupees Priya kitta odane ah anupanum.,pay_transfer
+B05-ta-rom-q1-B1,B05,ta,roman,1,B1,Priya ku anupina 3000 rupees pochuchaa nu check pannunga.,pay_transfer_status
+B05-ta-rom-q1-B2,B05,ta,roman,1,B2,Priya kitta anuppina 3000 rupees oda nilamai enna nu sollunga.,pay_transfer_status
+B05-ta-rom-q2-A1,B05,ta,roman,2,A1,College fees ku 15000 rupees Ravi kitta ippove transfer pannunga.,pay_transfer
+B05-ta-rom-q2-A2,B05,ta,roman,2,A2,15000 rupees Ravi ku immediate ah anupanum college fees ku.,pay_transfer
+B05-ta-rom-q2-B1,B05,ta,roman,2,B1,Ravi ku anupina 15000 rupees pochuchaa nu check pannunga.,pay_transfer_status
+B05-ta-rom-q2-B2,B05,ta,roman,2,B2,Ravi kitta anuppina 15000 rupees status enna nu sollunga.,pay_transfer_status
+B06-ta-rom-q1-A1,B06,ta,roman,1,A1,En credit card bill ah ippove pay pannanum.,cc_pay_bill
+B06-ta-rom-q1-A2,B06,ta,roman,1,A2,Credit card bill ah full ah settle pannanum ippo.,cc_pay_bill
+B06-ta-rom-q1-B1,B06,ta,roman,1,B1,En credit card la evlo outstanding irukku nu sollunga.,cc_total_outstanding
+B06-ta-rom-q1-B2,B06,ta,roman,1,B2,Credit card la total evlo katanum nu therinjukanum.,cc_total_outstanding
+B06-ta-rom-q2-A1,B06,ta,roman,2,A1,Credit card bill pay panna help pannunga.,cc_pay_bill
+B06-ta-rom-q2-A2,B06,ta,roman,2,A2,"Credit card bill ah ippo settle pannalam nu iruken, eppadi nu sollunga.",cc_pay_bill
+B06-ta-rom-q2-B1,B06,ta,roman,2,B1,Credit card la outstanding evlo irukku nu sollureengala.,cc_total_outstanding
+B06-ta-rom-q2-B2,B06,ta,roman,2,B2,Credit card la evlo total balance irukku nu solla mudiyuma.,cc_total_outstanding
+B07-ta-rom-q1-A1,B07,ta,roman,1,A1,Credit card la total evlo outstanding irukku nu sollunga.,cc_total_outstanding
+B07-ta-rom-q1-A2,B07,ta,roman,1,A2,Credit card full amount evlo katanum nu therinjukanum.,cc_total_outstanding
+B07-ta-rom-q1-B1,B07,ta,roman,1,B1,Credit card la minimum due evlo irukku nu sollunga.,cc_minimum_due
+B07-ta-rom-q1-B2,B07,ta,roman,1,B2,Credit card ku minimum amount evlo katanum?,cc_minimum_due
+B07-ta-rom-q2-A1,B07,ta,roman,2,A1,"Credit card statement vandhuchu, total outstanding evlo nu confirm pannunga.",cc_total_outstanding
+B07-ta-rom-q2-A2,B07,ta,roman,2,A2,Andha credit card statement la total evlo katanum nu correct ah sollunga.,cc_total_outstanding
+B07-ta-rom-q2-B1,B07,ta,roman,2,B1,"Credit card statement vandhuchu la, adhula minimum due evlo nu paathu sollu.",cc_minimum_due
+B07-ta-rom-q2-B2,B07,ta,roman,2,B2,Andha credit card statement la minimum evlo katanum nu correct ah sollunga.,cc_minimum_due
+B08-ta-rom-q1-A1,B08,ta,roman,1,A1,Shopping ku credit card limit ah increase pannunga.,cc_limit_increase
+B08-ta-rom-q1-A2,B08,ta,roman,1,A2,"Credit card la limit ah konjam kootitunga, shopping panlam nu iruken.",cc_limit_increase
+B08-ta-rom-q1-B1,B08,ta,roman,1,B1,Shopping pogura munnadi credit card la limit evlo irukku nu sollunga.,cc_check_limit
+B08-ta-rom-q1-B2,B08,ta,roman,1,B2,"Credit card la ippo limit evlo nu sollunga, shopping irukku.",cc_check_limit
+B08-ta-rom-q2-A1,B08,ta,roman,2,A1,Business expenses ku credit card limit ah permanent ah increase pannunga.,cc_limit_increase
+B08-ta-rom-q2-A2,B08,ta,roman,2,A2,"Credit card limit ah kootanum, business ku use pannanum.",cc_limit_increase
+B08-ta-rom-q2-B1,B08,ta,roman,2,B1,Business ku use panra credit card la limit evlo nu sollunga.,cc_check_limit
+B08-ta-rom-q2-B2,B08,ta,roman,2,B2,"Credit card la limit evlo vechirukeenga nu sollunga, business ku use pannanum.",cc_check_limit
+B09-ta-rom-q1-A1,B09,ta,roman,1,A1,"Naan permanent ah abroad poren, enoda account ah close pannunga.",acc_close_account
+B09-ta-rom-q1-A2,B09,ta,roman,1,A2,"Vera ooru ku permanent ah shift aaguren, indha account ku innum thevai illa, muzhusa close pannidunga.",acc_close_account
+B09-ta-rom-q1-B1,B09,ta,roman,1,B1,"Net banking la unknown login pathen, enoda account ah freeze pannunga.",sec_freeze_account
+B09-ta-rom-q1-B2,B09,ta,roman,1,B2,"Yaaro account ku login aana madhiri irukku, safety ku freeze pannidunga.",sec_freeze_account
+B09-ta-rom-q2-A1,B09,ta,roman,2,A1,"Vera bank ku permanent ah shift aayiten, ennoda account ah close pannunga.",acc_close_account
+B09-ta-rom-q2-A2,B09,ta,roman,2,A2,Ippo use pannaatha account ah completely close pannidunga.,acc_close_account
+B09-ta-rom-q2-B1,B09,ta,roman,2,B1,"Phone thiruttu poiduchu, adhula banking app login ah irundhuchu adhunala ennoda account ah freeze pannunga.",sec_freeze_account
+B09-ta-rom-q2-B2,B09,ta,roman,2,B2,"Phone kanama poiduchu, safety ku account ah temporary ah freeze pannidunga.",sec_freeze_account
+B10-ta-rom-q1-A1,B10,ta,roman,1,A1,"Enoda debit card damage aayiduchu, replace panni puthusa anupunga.",dc_replace_card
+B10-ta-rom-q1-A2,B10,ta,roman,1,A2,"Debit card work aagala, andha card ah maathi puthu card kudunga.",dc_replace_card
+B10-ta-rom-q1-B1,B10,ta,roman,1,B1,"Enakku ippo varaikkum debit card ey illa, first time ku apply pannunga.",dc_apply_new
+B10-ta-rom-q1-B2,B10,ta,roman,1,B2,"Puthu account open pannen, debit card innum apply pannala, first time ku apply panni kudunga.",dc_apply_new
+B10-ta-rom-q2-A1,B10,ta,roman,2,A1,"Debit card chip scratch aayiduchu, so ATM la reject aaguthu, konjam replace pannunga.",dc_replace_card
+B10-ta-rom-q2-A2,B10,ta,roman,2,A2,"Debit card magnetic stripe vela seyala, adhunala debit card ah maathi anupunga.",dc_replace_card
+B10-ta-rom-q2-B1,B10,ta,roman,2,B1,"Enakku thaan innoru debit card puthusa venum, online purchase ku apply pannunga.",dc_apply_new
+B10-ta-rom-q2-B2,B10,ta,roman,2,B2,"En per la innoru debit card apply panni kudunga, online purchase ku thaniya use pannanum.",dc_apply_new
+B11-ta-rom-q1-A1,B11,ta,roman,1,A1,"Kayila periya amount vanthuduchu, personal loan ah full ah close pannanum.",loan_foreclosure
+B11-ta-rom-q1-A2,B11,ta,roman,1,A2,"Loan ah completely settle pannitu mudichidanum, foreclosure amount sollunga.",loan_foreclosure
+B11-ta-rom-q1-B1,B11,ta,roman,1,B1,"Kaila 60000 rupees extra vanthuduchu, loan ku part prepayment ah pottu continue pannanum.",loan_part_prepayment
+B11-ta-rom-q1-B2,B11,ta,roman,1,B2,"60000 rupees loan asal la adjust pannitu, loan ah adhe maadhiri continue pannitanum.",loan_part_prepayment
+B11-ta-rom-q2-A1,B11,ta,roman,2,A1,"PF amount full ah kai la vanthuduchu, car loan ah entirely foreclose pannanum.",loan_foreclosure
+B11-ta-rom-q2-A2,B11,ta,roman,2,A2,"Car loan ah muzhusa mudichitanum, foreclosure process sollunga.",loan_foreclosure
+B11-ta-rom-q2-B1,B11,ta,roman,2,B1,"Diwali bonus la 30000 rupees vanthuduchu, car loan ku part prepayment pottu continue pannanum.",loan_part_prepayment
+B11-ta-rom-q2-B2,B11,ta,roman,2,B2,"30000 rupees car loan la adjust pannitu, loan ah nadaththitu poganum.",loan_part_prepayment
+B12-ta-rom-q1-A1,B12,ta,roman,1,A1,Home loan la ippo evlo balance irukku nu sollunga.,loan_outstanding
+B12-ta-rom-q1-A2,B12,ta,roman,1,A2,Loan la innum evlo katanum nu therinja nalla irukkum.,loan_outstanding
+B12-ta-rom-q1-B1,B12,ta,roman,1,B1,Home loan oda adutha EMI eppo nu date ah sollunga.,loan_next_emi_date
+B12-ta-rom-q1-B2,B12,ta,roman,1,B2,Next EMI entha date nu confirm pannunga.,loan_next_emi_date
+B12-ta-rom-q2-A1,B12,ta,roman,2,A1,"Balance transfer ku mudhal la, loan la evlo outstanding irukku exact ah sollunga.",loan_outstanding
+B12-ta-rom-q2-A2,B12,ta,roman,2,A2,"Vera bank ku loan transfer pannanum, current outstanding amount sollunga.",loan_outstanding
+B12-ta-rom-q2-B1,B12,ta,roman,2,B1,"Balance transfer ku munnadi, loan oda next EMI date eppo nu sollunga.",loan_next_emi_date
+B12-ta-rom-q2-B2,B12,ta,roman,2,B2,"Vera bank ku loan transfer pannanum, next EMI eppo due aagum nu sollunga.",loan_next_emi_date
+B13-ta-rom-q1-A1,B13,ta,roman,1,A1,"Enakku theriyaama account la irundhu 4000 rupees debit aayirku, fraud ah report pannunga.",sec_report_fraud
+B13-ta-rom-q1-A2,B13,ta,roman,1,A2,"Naan pannaatha oru 4000 rupees transaction kaattuthu, urgent ah fraud complaint pannunga.",sec_report_fraud
+B13-ta-rom-q1-B1,B13,ta,roman,1,B1,"Andha 4000 rupees fraud transaction pathi konjam naal munnadi report pannen, status enna nu sollunga.",sec_fraud_status
+B13-ta-rom-q1-B2,B13,ta,roman,1,B2,4000 rupees unauthorized transaction complaint ennachu nu update sollunga.,sec_fraud_status
+B13-ta-rom-q2-A1,B13,ta,roman,2,A1,"Card kaila than irukku, aana vera etho ooru la ATM withdrawal aachu nu message vanthuchu, fraud ah report pannunga.",sec_report_fraud
+B13-ta-rom-q2-A2,B13,ta,roman,2,A2,"En kaila card irunthum, vera etho oor la ATM withdrawal aana message vanthuchu, urgent ah complaint pannunga.",sec_report_fraud
+B13-ta-rom-q2-B1,B13,ta,roman,2,B1,"Andha vera ooru ATM withdrawal fraud pathi konjam naal munnadi report pannen, andha case status enna nu sollunga.",sec_fraud_status
+B13-ta-rom-q2-B2,B13,ta,roman,2,B2,Vera ooru la aana andha unauthorized withdrawal complaint enga stage la irukku nu update sollunga.,sec_fraud_status
+B14-ta-rom-q1-A1,B14,ta,roman,1,A1,"Debit card PIN marandhuduchu, reset pannunga.",dc_reset_pin
+B14-ta-rom-q1-A2,B14,ta,roman,1,A2,"Enoda debit card PIN ninaivu illa, reset panni kudunga.",dc_reset_pin
+B14-ta-rom-q1-B1,B14,ta,roman,1,B1,"Puthu debit card ku innum PIN illa, generate pannunga.",dc_generate_pin
+B14-ta-rom-q1-B2,B14,ta,roman,1,B2,"Enoda puthu debit card ku PIN set pannala, oru PIN create panni kudunga.",dc_generate_pin
+B14-ta-rom-q2-A1,B14,ta,roman,2,A1,"ATM la 3 thadava wrong debit card PIN pottu lock aayiduchu, reset pannikanum.",dc_reset_pin
+B14-ta-rom-q2-A2,B14,ta,roman,2,A2,"Debit card PIN ah 3 thadava thappa pottu lock aayiduchu, reset pannunga.",dc_reset_pin
+B14-ta-rom-q2-B1,B14,ta,roman,2,B1,"Enakku first time puthu debit card vanthuchu, PIN illa, generate panni kudunga.",dc_generate_pin
+B14-ta-rom-q2-B2,B14,ta,roman,2,B2,"First time debit card vaangi iruken, PIN set pannikanum, help pannunga.",dc_generate_pin
+B15-ta-rom-q1-A1,B15,ta,roman,1,A1,Veetu velaikkari ku 3000 rupees ippove anuppidunga.,pay_transfer
+B15-ta-rom-q1-A2,B15,ta,roman,1,A2,3000 rupees maid salary ippo anupunga.,pay_transfer
+B15-ta-rom-q1-B1,B15,ta,roman,1,B1,Veetu velaikkari ku 3000 rupees adutha vaaram automatic ah pogura maadhiri schedule pannunga.,pay_schedule_transfer
+B15-ta-rom-q1-B2,B15,ta,roman,1,B2,3000 rupees maid salary ku future date ku schedule panni vaikanum.,pay_schedule_transfer
+B15-ta-rom-q2-A1,B15,ta,roman,2,A1,Amma ku 6000 rupees ippove anupanum.,pay_transfer
+B15-ta-rom-q2-A2,B15,ta,roman,2,A2,6000 rupees Amma kitta ippo transfer pannanum.,pay_transfer
+B15-ta-rom-q2-B1,B15,ta,roman,2,B1,Amma ku 6000 rupees adutha vaaram pogura maadhiri schedule pannunga.,pay_schedule_transfer
+B15-ta-rom-q2-B2,B15,ta,roman,2,B2,6000 rupees Amma ku adutha vaaram transfer aagura maadhiri schedule set pannunga.,pay_schedule_transfer
+B01-ta-nat-q1-A1,B01,ta,native,1,A1,என் கிரெடிட் கார்டை இப்போ பிளாக் பண்ணுங்க.,cc_block_card
+B01-ta-nat-q1-A2,B01,ta,native,1,A2,"என்னுடைய கிரெடிட் கார்டை பிளாக் பண்ண வேண்டும், சீக்கிரம் பண்ணுங்க.",cc_block_card
+B01-ta-nat-q1-B1,B01,ta,native,1,B1,என் கிரெடிட் கார்டை இப்போ அன்பிளாக் பண்ணுங்க.,cc_unblock_card
+B01-ta-nat-q1-B2,B01,ta,native,1,B2,"என்னுடைய கிரெடிட் கார்டை அன்பிளாக் பண்ண வேண்டும், சீக்கிரம் பண்ணுங்க.",cc_unblock_card
+B01-ta-nat-q2-A1,B01,ta,native,2,A1,"கிரெடிட் கார்டை பிளாக் பண்ண முடியுமா, ஆப்-ல ஆப்ஷன் காணோம்.",cc_block_card
+B01-ta-nat-q2-A2,B01,ta,native,2,A2,"கிரெடிட் கார்டை பிளாக் பண்ணுவீங்களா, ஆப்-ல அந்த ஆப்ஷன் காணோம்.",cc_block_card
+B01-ta-nat-q2-B1,B01,ta,native,2,B1,"கிரெடிட் கார்டை அன்பிளாக் பண்ண முடியுமா, ஆப்-ல ஆப்ஷன் காணோம்.",cc_unblock_card
+B01-ta-nat-q2-B2,B01,ta,native,2,B2,"கிரெடிட் கார்டை அன்பிளாக் பண்ணுவீங்களா, ஆப்-ல அந்த ஆப்ஷன் காணோம்.",cc_unblock_card
+B02-ta-nat-q1-A1,B02,ta,native,1,A1,"ரெண்டு வாரம் ட்ரிப் போறேன், ட்ரிப்பில் இருக்கிற வரைக்கும் என் கிரெடிட் கார்டை தற்காலிகமா லாக் பண்ணுங்க.",cc_temp_lock
+B02-ta-nat-q1-A2,B02,ta,native,1,A2,"ட்ரிப்பில் இருக்கும்போது கிரெடிட் கார்டு உபயோகிக்க மாட்டேன், அதனால தற்காலிகமா லாக் பண்ணிடுங்க.",cc_temp_lock
+B02-ta-nat-q1-B1,B02,ta,native,1,B1,"என் கிரெடிட் கார்டு நிரந்தரமா தொலைஞ்சுடுச்சு, அந்த கார்டை பிளாக் பண்ணுங்க.",cc_block_card
+B02-ta-nat-q1-B2,B02,ta,native,1,B2,"அந்த கிரெடிட் கார்டு மீண்டும் கிடைக்கவே கிடையாது, அதனால நிரந்தரமா பிளாக் பண்ணிடுங்க.",cc_block_card
+B02-ta-nat-q2-A1,B02,ta,native,2,A1,"வாரம் ஹாஸ்பிடலில் இருப்பேன், அந்த நேரத்துக்கு கிரெடிட் கார்டை லாக் பண்ணிடுங்க.",cc_temp_lock
+B02-ta-nat-q2-A2,B02,ta,native,2,A2,"சில நாள் ஹாஸ்பிடல் அட்மிட், கிரெடிட் கார்டுக்கு தேவை இல்ல, தற்காலிகமா லாக் பண்ணுங்க.",cc_temp_lock
+B02-ta-nat-q2-B1,B02,ta,native,2,B1,"என் கிரெடிட் கார்டை இனிமே உபயோகிக்க போறதில்லை, ரீப்ளேஸ்மென்ட் வேண்டாம், நிரந்தரமா பிளாக் பண்ணுங்க.",cc_block_card
+B02-ta-nat-q2-B2,B02,ta,native,2,B2,"கிரெடிட் கார்டை மறுபடியும் உபயோகிக்க போறதில்லை, ரீப்ளேஸ்மென்ட் தேவை இல்லாம நிரந்தரமா பிளாக் பண்ணுங்க.",cc_block_card
+B03-ta-nat-q1-A1,B03,ta,native,1,A1,"பர்ஸ் காணாமல் போயிடுச்சு, அதுல இருந்த என் கிரெடிட் கார்டை பிளாக் பண்ணுங்க.",cc_block_card
+B03-ta-nat-q1-A2,B03,ta,native,1,A2,"என் கிரெடிட் கார்டு பர்ஸோட சேர்ந்து போயிடுச்சு, அந்த கார்டை உடனே பிளாக் பண்ணிடுங்க.",cc_block_card
+B03-ta-nat-q1-B1,B03,ta,native,1,B1,"பர்ஸ் காணாமல் போயிடுச்சு, அதுல இருந்த என் டெபிட் கார்டை பிளாக் பண்ணுங்க.",dc_block_card
+B03-ta-nat-q1-B2,B03,ta,native,1,B2,"என் டெபிட் கார்டு பர்ஸோட சேர்ந்து போயிடுச்சு, அந்த கார்டை உடனே பிளாக் பண்ணிடுங்க.",dc_block_card
+B03-ta-nat-q2-A1,B03,ta,native,2,A1,"மோசடி கால் வந்து என் கிரெடிட் கார்டு டீடெயில்ஸ் கேட்டாங்க, அந்த கிரெடிட் கார்டை பிளாக் பண்ணுங்க.",cc_block_card
+B03-ta-nat-q2-A2,B03,ta,native,2,A2,"யாரோ போன் பண்ணி கிரெடிட் கார்டு நம்பர் கேட்டு வாங்கிட்டாங்க, அந்த கார்டை உடனே பிளாக் பண்ணிடுங்க.",cc_block_card
+B03-ta-nat-q2-B1,B03,ta,native,2,B1,"மோசடி கால் வந்து என் டெபிட் கார்டு டீடெயில்ஸ் கேட்டாங்க, அந்த டெபிட் கார்டை பிளாக் பண்ணுங்க.",dc_block_card
+B03-ta-nat-q2-B2,B03,ta,native,2,B2,"யாரோ போன் பண்ணி டெபிட் கார்டு நம்பர் கேட்டு வாங்கிட்டாங்க, அந்த கார்டை உடனே பிளாக் பண்ணிடுங்க.",dc_block_card
+B04-ta-nat-q1-A1,B04,ta,native,1,A1,குமார்-க்கு 500 ரூபாய் UPI-ல இப்போவே அனுப்புங்க.,upi_send
+B04-ta-nat-q1-A2,B04,ta,native,1,A2,500 ரூபாய் குமார் கிட்ட UPI மூலமா செண்ட் பண்ணணும்.,upi_send
+B04-ta-nat-q1-B1,B04,ta,native,1,B1,குமார் கிட்ட இருந்து 500 ரூபாய் UPI-ல இப்போவே ரிக்வெஸ்ட் பண்ணுங்க.,upi_request
+B04-ta-nat-q1-B2,B04,ta,native,1,B2,500 ரூபாய் குமார் கிட்ட இருந்து UPI மூலமா வாங்க வேண்டும்.,upi_request
+B04-ta-nat-q2-A1,B04,ta,native,2,A1,ரென்ட்-க்கு 8000 ரூபாய் பிரியா கிட்ட UPI-ல அனுப்பணும்.,upi_send
+B04-ta-nat-q2-A2,B04,ta,native,2,A2,8000 ரூபாய் பிரியாவுக்கு UPI மூலமா பே பண்ணணும் இப்போவே.,upi_send
+B04-ta-nat-q2-B1,B04,ta,native,2,B1,ரென்ட்-க்கு 8000 ரூபாய் பிரியா கிட்ட இருந்து UPI-ல ரிக்வெஸ்ட் பண்ணணும்.,upi_request
+B04-ta-nat-q2-B2,B04,ta,native,2,B2,8000 ரூபாய் பிரியா கிட்ட இருந்து UPI மூலமா வாங்க வேண்டும் இப்போவே.,upi_request
+B05-ta-nat-q1-A1,B05,ta,native,1,A1,பிரியாவுக்கு 3000 ரூபாய் இப்போவே ட்ரான்ஸ்பர் பண்ணுங்க.,pay_transfer
+B05-ta-nat-q1-A2,B05,ta,native,1,A2,3000 ரூபாய் பிரியா கிட்ட இம்மீடியேட்டா அனுப்பணும்.,pay_transfer
+B05-ta-nat-q1-B1,B05,ta,native,1,B1,பிரியாவுக்கு அனுப்பின 3000 ரூபாய் போச்சான்னு செக் பண்ணுங்க.,pay_transfer_status
+B05-ta-nat-q1-B2,B05,ta,native,1,B2,பிரியா கிட்ட அனுப்பின 3000 ரூபாய் ஸ்டேட்டஸ் என்னனு சொல்லுங்க.,pay_transfer_status
+B05-ta-nat-q2-A1,B05,ta,native,2,A1,காலேஜ் ஃபீஸ்-க்கு 15000 ரூபாய் ரவி கிட்ட இப்போவே ட்ரான்ஸ்பர் பண்ணுங்க.,pay_transfer
+B05-ta-nat-q2-A2,B05,ta,native,2,A2,15000 ரூபாய் ரவிக்கு இம்மீடியேட்டா அனுப்பணும் காலேஜ் ஃபீஸ்-க்கு.,pay_transfer
+B05-ta-nat-q2-B1,B05,ta,native,2,B1,ரவிக்கு அனுப்பின 15000 ரூபாய் போச்சான்னு செக் பண்ணுங்க.,pay_transfer_status
+B05-ta-nat-q2-B2,B05,ta,native,2,B2,ரவி கிட்ட அனுப்பின 15000 ரூபாய் ஸ்டேட்டஸ் என்னனு சொல்லுங்க.,pay_transfer_status
+B06-ta-nat-q1-A1,B06,ta,native,1,A1,என் கிரெடிட் கார்டு பில்லை இப்போவே பே பண்ணுங்க.,cc_pay_bill
+B06-ta-nat-q1-A2,B06,ta,native,1,A2,கிரெடிட் கார்டு பில்லை முழுசா செட்டில் பண்ணணும் இப்போ.,cc_pay_bill
+B06-ta-nat-q1-B1,B06,ta,native,1,B1,என் கிரெடிட் கார்டில் எவ்ளோ அவுட்ஸ்டாண்டிங் இருக்குனு சொல்லுங்க.,cc_total_outstanding
+B06-ta-nat-q1-B2,B06,ta,native,1,B2,கிரெடிட் கார்டில் டோட்டல் எவ்ளோ கட்டணும்னு தெரிஞ்சுக்கணும்.,cc_total_outstanding
+B06-ta-nat-q2-A1,B06,ta,native,2,A1,கிரெடிட் கார்டு பில் பே பண்ண ஹெல்ப் பண்ணுவீங்களா.,cc_pay_bill
+B06-ta-nat-q2-A2,B06,ta,native,2,A2,"கிரெடிட் கார்டு பில்லை இப்போ செட்டில் பண்ணிடுவேன், ஹெல்ப் பண்ணுங்க.",cc_pay_bill
+B06-ta-nat-q2-B1,B06,ta,native,2,B1,கிரெடிட் கார்டில் அவுட்ஸ்டாண்டிங் எவ்ளோ இருக்கு சொல்றீங்களா.,cc_total_outstanding
+B06-ta-nat-q2-B2,B06,ta,native,2,B2,கிரெடிட் கார்டில் எவ்ளோ டோட்டல் பேலன்ஸ் இருக்குனு சொல்ல முடியுமா.,cc_total_outstanding
+B07-ta-nat-q1-A1,B07,ta,native,1,A1,கிரெடிட் கார்டில் டோட்டல் எவ்ளோ அவுட்ஸ்டாண்டிங் இருக்குனு சொல்லுங்க.,cc_total_outstanding
+B07-ta-nat-q1-A2,B07,ta,native,1,A2,கிரெடிட் கார்டு முழு அமவுன்ட் எவ்ளோ கட்டணும்னு தெரிஞ்சுக்கணும்.,cc_total_outstanding
+B07-ta-nat-q1-B1,B07,ta,native,1,B1,கிரெடிட் கார்டில் மினிமம் டியூ எவ்ளோ இருக்குனு சொல்லுங்க.,cc_minimum_due
+B07-ta-nat-q1-B2,B07,ta,native,1,B2,கிரெடிட் கார்டுக்கு மினிமம் அமவுன்ட் எவ்ளோ கட்டணும்னு தெரிஞ்சுக்கணும்.,cc_minimum_due
+B07-ta-nat-q2-A1,B07,ta,native,2,A1,"கிரெடிட் கார்டு ஸ்டேட்மென்ட் வந்துச்சு, டோட்டல் அவுட்ஸ்டாண்டிங் எவ்ளோனு கன்ஃபர்ம் பண்ணுங்க.",cc_total_outstanding
+B07-ta-nat-q2-A2,B07,ta,native,2,A2,அந்த கிரெடிட் கார்டு ஸ்டேட்மென்ட்ல டோட்டல் எவ்ளோ கட்டணும்னு கரெக்டா சொல்லுங்க.,cc_total_outstanding
+B07-ta-nat-q2-B1,B07,ta,native,2,B1,"கிரெடிட் கார்டு ஸ்டேட்மென்ட் வந்துச்சு, மினிமம் டியூ எவ்ளோனு கன்ஃபர்ம் பண்ணுங்க.",cc_minimum_due
+B07-ta-nat-q2-B2,B07,ta,native,2,B2,அந்த கிரெடிட் கார்டு ஸ்டேட்மென்ட்ல மினிமம் எவ்ளோ கட்டணும்னு கரெக்டா சொல்லுங்க.,cc_minimum_due
+B08-ta-nat-q1-A1,B08,ta,native,1,A1,ஷாப்பிங்-க்கு கிரெடிட் கார்டு லிமிட்டை இன்க்ரீஸ் பண்ணுங்க.,cc_limit_increase
+B08-ta-nat-q1-A2,B08,ta,native,1,A2,"கிரெடிட் கார்டில் லிமிட்டை கொஞ்சம் கூட்டிடுங்க, ஷாப்பிங் இருக்கு.",cc_limit_increase
+B08-ta-nat-q1-B1,B08,ta,native,1,B1,ஷாப்பிங்-க்கு முன்னாடி கிரெடிட் கார்டில் லிமிட் எவ்ளோனு சொல்லுங்க.,cc_check_limit
+B08-ta-nat-q1-B2,B08,ta,native,1,B2,"கிரெடிட் கார்டில் இப்போ லிமிட் எவ்ளோனு சொல்லுங்க, ஷாப்பிங் இருக்கு.",cc_check_limit
+B08-ta-nat-q2-A1,B08,ta,native,2,A1,பிசினஸ் எக்ஸ்பென்சஸ்க்கு கிரெடிட் கார்டு லிமிட்டை நிரந்தரமா இன்க்ரீஸ் பண்ணுங்க.,cc_limit_increase
+B08-ta-nat-q2-A2,B08,ta,native,2,A2,"கிரெடிட் கார்டு லிமிட்டை கூட்டணும், பிசினஸ்க்கு உபயோகம் அதிகம்.",cc_limit_increase
+B08-ta-nat-q2-B1,B08,ta,native,2,B1,பிசினஸ்க்கு உபயோகிக்குற கிரெடிட் கார்டில் லிமிட் எவ்ளோனு சொல்லுங்க.,cc_check_limit
+B08-ta-nat-q2-B2,B08,ta,native,2,B2,"கிரெடிட் கார்டில் லிமிட் எவ்ளோ வெச்சிருக்கீங்கனு சொல்லுங்க, பிசினஸ்க்கு உபயோகம் அதிகம்.",cc_check_limit
+B09-ta-nat-q1-A1,B09,ta,native,1,A1,"நான் நிரந்தரமா அப்ராட் போறேன், என்னுடைய அக்கவுன்டை க்ளோஸ் பண்ணுங்க.",acc_close_account
+B09-ta-nat-q1-A2,B09,ta,native,1,A2,"வேற நாட்டுக்கு ஷிஃப்ட் ஆகுறேன், அக்கவுன்டை காம்ப்ளீட்டா க்ளோஸ் பண்ணிடுங்க.",acc_close_account
+B09-ta-nat-q1-B1,B09,ta,native,1,B1,"நெட் பேங்கிங்ல எனக்கு தெரியாத ஒரு லாகின் கண்டேன், என்னுடைய அக்கவுன்டை ஃப்ரீஸ் பண்ணுங்க.",sec_freeze_account
+B09-ta-nat-q1-B2,B09,ta,native,1,B2,"யாரோ அக்கவுன்ட்-க்கு லாகின் ஆன மாதிரி இருக்கு, பாதுகாப்புக்காக ஃப்ரீஸ் பண்ணிடுங்க.",sec_freeze_account
+B09-ta-nat-q2-A1,B09,ta,native,2,A1,"வேற சிட்டிக்கு நிரந்தரமா ஷிஃப்ட் ஆனேன், பழைய அக்கவுன்டை க்ளோஸ் பண்ணுங்க.",acc_close_account
+B09-ta-nat-q2-A2,B09,ta,native,2,A2,இப்போ உபயோகிக்காத அக்கவுன்டை காம்ப்ளீட்டா க்ளோஸ் பண்ணிடுங்க.,acc_close_account
+B09-ta-nat-q2-B1,B09,ta,native,2,B1,"போன் திருடு போயிடுச்சு, அதுல பேங்கிங் ஆப் இருந்துச்சு, அக்கவுன்டை ஃப்ரீஸ் பண்ணுங்க.",sec_freeze_account
+B09-ta-nat-q2-B2,B09,ta,native,2,B2,"போன் காணமல் போயிடுச்சு, பாதுகாப்புக்காக அக்கவுன்டை தற்காலிகமா ஃப்ரீஸ் பண்ணிடுங்க.",sec_freeze_account
+B10-ta-nat-q1-A1,B10,ta,native,1,A1,"என்னுடைய டெபிட் கார்டு டேமேஜ் ஆயிடுச்சு, ரீப்ளேஸ் பண்ணி புதுசா அனுப்புங்க.",dc_replace_card
+B10-ta-nat-q1-A2,B10,ta,native,1,A2,"டெபிட் கார்டு வேலை செய்யல, அந்த கார்டை மாத்தி புது கார்டு குடுங்க.",dc_replace_card
+B10-ta-nat-q1-B1,B10,ta,native,1,B1,"எனக்கு இப்போ வரைக்கும் டெபிட் கார்டே இல்ல, முதல் தடவையா புதுசா அப்ளை பண்ணுங்க.",dc_apply_new
+B10-ta-nat-q1-B2,B10,ta,native,1,B2,"புது அக்கவுன்ட் ஓபன் பண்ணேன், டெபிட் கார்டுக்கு இன்னும் அப்ளை பண்ணல, முதல் தடவையா அப்ளை பண்ணி குடுங்க.",dc_apply_new
+B10-ta-nat-q2-A1,B10,ta,native,2,A1,"டெபிட் கார்டு சிப் ஸ்க்ராட்ச் ஆயிடுச்சு, ஏடிஎம்ல ரிஜெக்ட் ஆகுது, ரீப்ளேஸ் பண்ணுங்க.",dc_replace_card
+B10-ta-nat-q2-A2,B10,ta,native,2,A2,"டெபிட் கார்டு மேக்னடிக் ஸ்ட்ரிப் வேலை செய்யல, அந்த டெபிட் கார்டை மாத்தி அனுப்புங்க.",dc_replace_card
+B10-ta-nat-q2-B1,B10,ta,native,2,B1,"எனக்கு தான் இன்னொரு டெபிட் கார்டு புதுசா வேணும், ஆன்லைன் பர்சேஸ்க்கு அப்ளை பண்ணுங்க.",dc_apply_new
+B10-ta-nat-q2-B2,B10,ta,native,2,B2,"என் பேர்ல இன்னொரு டெபிட் கார்டு அப்ளை பண்ணி குடுங்க, ஆன்லைன் பர்சேஸ்க்கு தனியா உபயோகிக்கணும்.",dc_apply_new
+B11-ta-nat-q1-A1,B11,ta,native,1,A1,"கையில பெரிய அமவுன்ட் வந்துடுச்சு, பர்சனல் லோனை முழுசா க்ளோஸ் பண்ணிடணும்.",loan_foreclosure
+B11-ta-nat-q1-A2,B11,ta,native,1,A2,"லோனை காம்ப்ளீட்டா செட்டில் பண்ணிட்டு முடிச்சிடணும், ஃபோர்க்ளோஷர் அமவுன்ட் சொல்லுங்க.",loan_foreclosure
+B11-ta-nat-q1-B1,B11,ta,native,1,B1,"கையில 50000 ரூபாய் எக்ஸ்ட்ரா வந்துடுச்சு, லோனுக்கு பார்ட் ப்ரீபேமெண்ட்டா போட்டு காண்டினியூ பண்ணணும்.",loan_part_prepayment
+B11-ta-nat-q1-B2,B11,ta,native,1,B2,"50000 ரூபாய் லோன்ல அட்ஜஸ்ட் பண்ணிட்டு, லோனை அதே மாதிரி காண்டினியூ பண்ணிடணும்.",loan_part_prepayment
+B11-ta-nat-q2-A1,B11,ta,native,2,A1,"PF அமவுன்ட் முழுசா கையில வந்துடுச்சு, கார் லோனை என்டையர்லி ஃபோர்க்ளோஸ் பண்ணிடணும்.",loan_foreclosure
+B11-ta-nat-q2-A2,B11,ta,native,2,A2,"கார் லோனை காம்ப்ளீட்டா முடிச்சிடணும், ஃபோர்க்ளோஷர் ப்ராசஸ் சொல்லுங்க.",loan_foreclosure
+B11-ta-nat-q2-B1,B11,ta,native,2,B1,"தீபாவளி போனஸ்ல 30000 ரூபாய் வந்துடுச்சு, கார் லோனுக்கு பார்ட் ப்ரீபேமெண்ட் போட்டு காண்டினியூ பண்ணணும்.",loan_part_prepayment
+B11-ta-nat-q2-B2,B11,ta,native,2,B2,"30000 ரூபாய் கார் லோன்ல அட்ஜஸ்ட் பண்ணிட்டு, லோனை நடத்திட்டு போகணும்.",loan_part_prepayment
+B12-ta-nat-q1-A1,B12,ta,native,1,A1,ஹோம் லோன்ல இப்போ எவ்ளோ பேலன்ஸ் இருக்குனு சொல்லுங்க.,loan_outstanding
+B12-ta-nat-q1-A2,B12,ta,native,1,A2,லோன்ல இன்னும் எவ்ளோ கட்டணும்னு தெரிஞ்சுக்கணும்.,loan_outstanding
+B12-ta-nat-q1-B1,B12,ta,native,1,B1,ஹோம் லோன் அடுத்த EMI எப்போனு டேட்டை சொல்லுங்க.,loan_next_emi_date
+B12-ta-nat-q1-B2,B12,ta,native,1,B2,நெக்ஸ்ட் EMI எவ்ளோ டேட்னு கன்ஃபர்ம் பண்ணுங்க.,loan_next_emi_date
+B12-ta-nat-q2-A1,B12,ta,native,2,A1,"பேலன்ஸ் ட்ரான்ஸ்பர்க்கு முன்னாடி, லோன்ல எவ்ளோ அவுட்ஸ்டாண்டிங் இருக்கு எக்ஸாக்ட்டா சொல்லுங்க.",loan_outstanding
+B12-ta-nat-q2-A2,B12,ta,native,2,A2,"வேற பேங்குக்கு லோன் ட்ரான்ஸ்பர் பண்ணணும், கரண்ட் அவுட்ஸ்டாண்டிங் அமவுன்ட் சொல்லுங்க.",loan_outstanding
+B12-ta-nat-q2-B1,B12,ta,native,2,B1,"பேலன்ஸ் ட்ரான்ஸ்பர்க்கு முன்னாடி, லோனோட நெக்ஸ்ட் EMI டேட் எப்போனு சொல்லுங்க.",loan_next_emi_date
+B12-ta-nat-q2-B2,B12,ta,native,2,B2,"வேற பேங்குக்கு லோன் ட்ரான்ஸ்பர் பண்ணணும், நெக்ஸ்ட் EMI எப்போ டியூ ஆகும்னு சொல்லுங்க.",loan_next_emi_date
+B13-ta-nat-q1-A1,B13,ta,native,1,A1,"எனக்கு தெரியாம அக்கவுன்ட்ல இருந்து 4000 ரூபாய் டெபிட் ஆயிடுச்சு, ஃப்ராட் ஆ ரிப்போர்ட் பண்ணுங்க.",sec_report_fraud
+B13-ta-nat-q1-A2,B13,ta,native,1,A2,"நான் பண்ணாத ட்ரான்சாக்ஷன் 4000 ரூபாய் காட்டுது, அர்ஜென்டா ஃப்ராட் காம்ப்ளைன்ட் பண்ணுங்க.",sec_report_fraud
+B13-ta-nat-q1-B1,B13,ta,native,1,B1,"அந்த 4000 ரூபாய் ஃப்ராட் ட்ரான்சாக்ஷன் பத்தி கொஞ்சம் நாள் முன்னாடி ரிப்போர்ட் பண்ணேன், ஸ்டேட்டஸ் என்னனு சொல்லுங்க.",sec_fraud_status
+B13-ta-nat-q1-B2,B13,ta,native,1,B2,4000 ரூபாய் நான் பண்ணாத ட்ரான்சாக்ஷன் காம்ப்ளைன்ட் எப்படி ப்ரோகிரஸ் ஆகுதுனு அப்டேட் சொல்லுங்க.,sec_fraud_status
+B13-ta-nat-q2-A1,B13,ta,native,2,A1,"கார்டு என்னுடைய கையில தான் இருக்கு, ஆனா வேற நாட்டில் ஏடிஎம் விட்ட்ரால் ஆன மெசேஜ் வந்துச்சு, ஃப்ராட் ஆ ரிப்போர்ட் பண்ணுங்க.",sec_report_fraud
+B13-ta-nat-q2-A2,B13,ta,native,2,A2,"என் கையில கார்டு இருந்தும், வேற நாட்டில் ஏடிஎம் விட்ட்ரால் ஆயிருக்குனு மெசேஜ் வந்துச்சு, அர்ஜென்டா காம்ப்ளைன்ட் பண்ணுங்க.",sec_report_fraud
+B13-ta-nat-q2-B1,B13,ta,native,2,B1,"அந்த வேற நாட்டு ஏடிஎம் விட்ட்ரால் ஃப்ராட் பத்தி கொஞ்சம் நாள் முன்னாடி ரிப்போர்ட் பண்ணேன், அந்த கேஸ் ஸ்டேட்டஸ் என்னனு சொல்லுங்க.",sec_fraud_status
+B13-ta-nat-q2-B2,B13,ta,native,2,B2,வேற நாட்டில ஆன அந்த அன்ஆத்தரைஸ்டு விட்ட்ரால் காம்ப்ளைன்ட் எங்க ஸ்டேஜ்ல இருக்குனு அப்டேட் சொல்லுங்க.,sec_fraud_status
+B14-ta-nat-q1-A1,B14,ta,native,1,A1,"டெபிட் கார்டு பின் மறந்துடுச்சு, ரீசெட் பண்ணுங்க.",dc_reset_pin
+B14-ta-nat-q1-A2,B14,ta,native,1,A2,"என்னுடைய டெபிட் கார்டு பின் நினைவு இல்ல, ரீசெட் பண்ணி குடுங்க.",dc_reset_pin
+B14-ta-nat-q1-B1,B14,ta,native,1,B1,"புது டெபிட் கார்டுக்கு இன்னும் பின் இல்ல, ஜெனரேட் பண்ணுங்க.",dc_generate_pin
+B14-ta-nat-q1-B2,B14,ta,native,1,B2,"என்னுடைய புது டெபிட் கார்டுக்கு பின் செட் பண்ணல, ஒரு பின் கிரியேட் பண்ணி குடுங்க.",dc_generate_pin
+B14-ta-nat-q2-A1,B14,ta,native,2,A1,"ஏடிஎம்ல 3 தடவை தப்பு டெபிட் கார்டு பின் போட்டு லாக் ஆயிடுச்சு, ரீசெட் பண்ணிக்கணும்.",dc_reset_pin
+B14-ta-nat-q2-A2,B14,ta,native,2,A2,"டெபிட் கார்டு பின்னை 3 தடவை தப்பா போட்டு லாக் ஆயிடுச்சு, ரீசெட் பண்ணுங்க.",dc_reset_pin
+B14-ta-nat-q2-B1,B14,ta,native,2,B1,"எனக்கு முதல் தடவையா புது டெபிட் கார்டு வந்துச்சு, பின் இல்ல, ஜெனரேட் பண்ணி குடுங்க.",dc_generate_pin
+B14-ta-nat-q2-B2,B14,ta,native,2,B2,"முதல் தடவை டெபிட் கார்டு வாங்கியிருக்கேன், பின் செட் பண்ணிக்கணும், ஹெல்ப் பண்ணுங்க.",dc_generate_pin
+B15-ta-nat-q1-A1,B15,ta,native,1,A1,வீட்டு வேலைக்காரிக்கு 3000 ரூபாய் இப்போவே ட்ரான்ஸ்பர் பண்ணுங்க.,pay_transfer
+B15-ta-nat-q1-A2,B15,ta,native,1,A2,3000 ரூபாய் மெயிட் சம்பளம் இப்போதான் அனுப்பணும்.,pay_transfer
+B15-ta-nat-q1-B1,B15,ta,native,1,B1,வீட்டு வேலைக்காரிக்கு 3000 ரூபாய் அடுத்த வாரம் ஆட்டோமேட்டிக்கா போகுற மாதிரி ஷெட்யூல் பண்ணுங்க.,pay_schedule_transfer
+B15-ta-nat-q1-B2,B15,ta,native,1,B2,3000 ரூபாய் மெயிட் சம்பளத்துக்கு ஃப்யூச்சர் டேட்க்கு ஷெட்யூல் பண்ணி வைக்கணும்.,pay_schedule_transfer
+B15-ta-nat-q2-A1,B15,ta,native,2,A1,அம்மாவுக்கு 6000 ரூபாய் இப்போவே அனுப்பணும்.,pay_transfer
+B15-ta-nat-q2-A2,B15,ta,native,2,A2,6000 ரூபாய் அம்மா கிட்ட இப்போ ட்ரான்ஸ்பர் பண்ணணும்.,pay_transfer
+B15-ta-nat-q2-B1,B15,ta,native,2,B1,அம்மாவுக்கு 6000 ரூபாய் அடுத்த வாரம் போகுற மாதிரி ஷெட்யூல் பண்ணுங்க.,pay_schedule_transfer
+B15-ta-nat-q2-B2,B15,ta,native,2,B2,6000 ரூபாய் அம்மாவுக்கு அடுத்த வாரம் ட்ரான்ஸ்பர் ஆக ஷெட்யூல் செட் பண்ணுங்க.,pay_schedule_transfer
